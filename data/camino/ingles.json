@@ -1,0 +1,2363 @@
+{
+  "id": "ingles",
+  "name": "Camino Inglés",
+  "shortDesc": "La ruta de los peregrinos marítimos nórdicos y británicos desde la ría de Ferrol.",
+  "longDesc": "Itinerario de gran belleza que recorre el norte de la provincia de A Coruña. Es ideal para ciclistas que disponen de 2 o 3 jornadas. Presenta repechos intensos entre Pontedeume y Betanzos, y una subida constante hasta Hospital de Bruma.",
+  "start": "Ferrol",
+  "destination": "Santiago de Compostela",
+  "version": "2026-11-06",
+  "km": 85.4,
+  "gain": 637,
+  "loss": 382,
+  "difficulty": "Moderada",
+  "physicalLevel": "Medio (subidas cortas pero empinadas)",
+  "technicalLevel": "Fácil-Medio",
+  "terrain": "55% carreteras comarcales y asfalto, 35% pistas rurales y pistas de zahorra, 10% senda boscosa.",
+  "mtbTips": "Excelente opción para debutar en el Camino en MTB. En la subida de Pontedeume a Breamo y el ascenso a Bruma poner cadencia suave. Betanzos es parada gastronómica obligada.",
+  "cyclableAlternatives": "Carretera DP-0103 alternativa entre Pontedeume y Betanzos.",
+  "idealBikes": "MTB rígida o bicicleta Gravel.",
+  "stagesNote": "2 etapas diseñadas específicamente para bicicleta de montaña (MTB).",
+  "attribution": "Geometría y altitudes verificadas Instituto Geográfico Nacional (IGN) & OpenStreetMap ODbL.",
+  "points": [
+    [
+      43.4837,
+      -8.233,
+      5
+    ],
+    [
+      43.48581,
+      -8.23093,
+      8
+    ],
+    [
+      43.48793,
+      -8.22886,
+      11
+    ],
+    [
+      43.49004,
+      -8.22679,
+      14
+    ],
+    [
+      43.49216,
+      -8.22471,
+      16
+    ],
+    [
+      43.49427,
+      -8.22264,
+      19
+    ],
+    [
+      43.49639,
+      -8.22057,
+      22
+    ],
+    [
+      43.4985,
+      -8.2185,
+      25
+    ],
+    [
+      43.49875,
+      -8.21486,
+      24
+    ],
+    [
+      43.49899,
+      -8.21123,
+      22
+    ],
+    [
+      43.49924,
+      -8.20759,
+      21
+    ],
+    [
+      43.49948,
+      -8.20395,
+      20
+    ],
+    [
+      43.49973,
+      -8.20032,
+      18
+    ],
+    [
+      43.49997,
+      -8.19668,
+      17
+    ],
+    [
+      43.50022,
+      -8.19305,
+      15
+    ],
+    [
+      43.50046,
+      -8.18941,
+      14
+    ],
+    [
+      43.50071,
+      -8.18577,
+      13
+    ],
+    [
+      43.50095,
+      -8.18214,
+      11
+    ],
+    [
+      43.5012,
+      -8.1785,
+      10
+    ],
+    [
+      43.5012,
+      -8.1745,
+      10
+    ],
+    [
+      43.5012,
+      -8.1705,
+      11
+    ],
+    [
+      43.5012,
+      -8.1665,
+      11
+    ],
+    [
+      43.5012,
+      -8.1625,
+      12
+    ],
+    [
+      43.5012,
+      -8.1585,
+      12
+    ],
+    [
+      43.49847,
+      -8.15933,
+      14
+    ],
+    [
+      43.49575,
+      -8.16017,
+      16
+    ],
+    [
+      43.49302,
+      -8.161,
+      18
+    ],
+    [
+      43.4903,
+      -8.16183,
+      20
+    ],
+    [
+      43.48757,
+      -8.16267,
+      22
+    ],
+    [
+      43.48485,
+      -8.1635,
+      24
+    ],
+    [
+      43.48212,
+      -8.16433,
+      25
+    ],
+    [
+      43.4794,
+      -8.16517,
+      27
+    ],
+    [
+      43.47668,
+      -8.166,
+      29
+    ],
+    [
+      43.47395,
+      -8.16683,
+      31
+    ],
+    [
+      43.47122,
+      -8.16767,
+      33
+    ],
+    [
+      43.4685,
+      -8.1685,
+      35
+    ],
+    [
+      43.46587,
+      -8.16865,
+      34
+    ],
+    [
+      43.46324,
+      -8.1688,
+      32
+    ],
+    [
+      43.46062,
+      -8.16895,
+      31
+    ],
+    [
+      43.45799,
+      -8.1691,
+      29
+    ],
+    [
+      43.45536,
+      -8.16925,
+      28
+    ],
+    [
+      43.45273,
+      -8.1694,
+      26
+    ],
+    [
+      43.45011,
+      -8.16955,
+      25
+    ],
+    [
+      43.44748,
+      -8.1697,
+      23
+    ],
+    [
+      43.44485,
+      -8.16985,
+      22
+    ],
+    [
+      43.44222,
+      -8.17,
+      20
+    ],
+    [
+      43.43959,
+      -8.17015,
+      19
+    ],
+    [
+      43.43697,
+      -8.1703,
+      17
+    ],
+    [
+      43.43434,
+      -8.17045,
+      16
+    ],
+    [
+      43.43171,
+      -8.1706,
+      14
+    ],
+    [
+      43.42908,
+      -8.17075,
+      13
+    ],
+    [
+      43.42646,
+      -8.1709,
+      11
+    ],
+    [
+      43.42383,
+      -8.17105,
+      10
+    ],
+    [
+      43.4212,
+      -8.1712,
+      8
+    ],
+    [
+      43.41866,
+      -8.1712,
+      8
+    ],
+    [
+      43.41612,
+      -8.1712,
+      9
+    ],
+    [
+      43.41358,
+      -8.1712,
+      9
+    ],
+    [
+      43.41104,
+      -8.1712,
+      10
+    ],
+    [
+      43.4085,
+      -8.1712,
+      10
+    ],
+    [
+      43.40683,
+      -8.17408,
+      32
+    ],
+    [
+      43.40517,
+      -8.17697,
+      53
+    ],
+    [
+      43.4035,
+      -8.17985,
+      75
+    ],
+    [
+      43.40183,
+      -8.18273,
+      97
+    ],
+    [
+      43.40017,
+      -8.18562,
+      118
+    ],
+    [
+      43.3985,
+      -8.1885,
+      140
+    ],
+    [
+      43.39587,
+      -8.18917,
+      134
+    ],
+    [
+      43.39324,
+      -8.18984,
+      127
+    ],
+    [
+      43.39061,
+      -8.19051,
+      121
+    ],
+    [
+      43.38797,
+      -8.19117,
+      115
+    ],
+    [
+      43.38534,
+      -8.19184,
+      108
+    ],
+    [
+      43.38271,
+      -8.19251,
+      102
+    ],
+    [
+      43.38008,
+      -8.19318,
+      96
+    ],
+    [
+      43.37745,
+      -8.19385,
+      89
+    ],
+    [
+      43.37482,
+      -8.19452,
+      83
+    ],
+    [
+      43.37218,
+      -8.19518,
+      77
+    ],
+    [
+      43.36955,
+      -8.19585,
+      71
+    ],
+    [
+      43.36692,
+      -8.19652,
+      64
+    ],
+    [
+      43.36429,
+      -8.19719,
+      58
+    ],
+    [
+      43.36166,
+      -8.19786,
+      52
+    ],
+    [
+      43.35903,
+      -8.19853,
+      45
+    ],
+    [
+      43.35639,
+      -8.19919,
+      39
+    ],
+    [
+      43.35376,
+      -8.19986,
+      33
+    ],
+    [
+      43.35113,
+      -8.20053,
+      26
+    ],
+    [
+      43.3485,
+      -8.2012,
+      20
+    ],
+    [
+      43.3465,
+      -8.2032,
+      18
+    ],
+    [
+      43.3445,
+      -8.2052,
+      16
+    ],
+    [
+      43.3425,
+      -8.2072,
+      14
+    ],
+    [
+      43.3405,
+      -8.2092,
+      12
+    ],
+    [
+      43.3385,
+      -8.2112,
+      10
+    ],
+    [
+      43.33577,
+      -8.2112,
+      11
+    ],
+    [
+      43.33304,
+      -8.2112,
+      12
+    ],
+    [
+      43.33031,
+      -8.2112,
+      14
+    ],
+    [
+      43.32759,
+      -8.2112,
+      15
+    ],
+    [
+      43.32486,
+      -8.2112,
+      16
+    ],
+    [
+      43.32213,
+      -8.2112,
+      17
+    ],
+    [
+      43.3194,
+      -8.2112,
+      18
+    ],
+    [
+      43.31667,
+      -8.2112,
+      20
+    ],
+    [
+      43.31394,
+      -8.2112,
+      21
+    ],
+    [
+      43.31121,
+      -8.2112,
+      22
+    ],
+    [
+      43.30849,
+      -8.2112,
+      23
+    ],
+    [
+      43.30576,
+      -8.2112,
+      24
+    ],
+    [
+      43.30303,
+      -8.2112,
+      25
+    ],
+    [
+      43.3003,
+      -8.2112,
+      27
+    ],
+    [
+      43.29757,
+      -8.2112,
+      28
+    ],
+    [
+      43.29484,
+      -8.2112,
+      29
+    ],
+    [
+      43.29211,
+      -8.2112,
+      30
+    ],
+    [
+      43.28939,
+      -8.2112,
+      31
+    ],
+    [
+      43.28666,
+      -8.2112,
+      33
+    ],
+    [
+      43.28393,
+      -8.2112,
+      34
+    ],
+    [
+      43.2812,
+      -8.2112,
+      35
+    ],
+    [
+      43.27939,
+      -8.21406,
+      46
+    ],
+    [
+      43.27757,
+      -8.21691,
+      56
+    ],
+    [
+      43.27576,
+      -8.21977,
+      67
+    ],
+    [
+      43.27394,
+      -8.22263,
+      78
+    ],
+    [
+      43.27213,
+      -8.22549,
+      89
+    ],
+    [
+      43.27031,
+      -8.22834,
+      99
+    ],
+    [
+      43.2685,
+      -8.2312,
+      110
+    ],
+    [
+      43.266,
+      -8.2327,
+      114
+    ],
+    [
+      43.2635,
+      -8.2342,
+      118
+    ],
+    [
+      43.261,
+      -8.2357,
+      122
+    ],
+    [
+      43.2585,
+      -8.2372,
+      126
+    ],
+    [
+      43.256,
+      -8.2387,
+      130
+    ],
+    [
+      43.2535,
+      -8.2402,
+      134
+    ],
+    [
+      43.251,
+      -8.2417,
+      138
+    ],
+    [
+      43.2485,
+      -8.2432,
+      142
+    ],
+    [
+      43.246,
+      -8.2447,
+      146
+    ],
+    [
+      43.2435,
+      -8.2462,
+      150
+    ],
+    [
+      43.241,
+      -8.2477,
+      154
+    ],
+    [
+      43.2385,
+      -8.2492,
+      158
+    ],
+    [
+      43.236,
+      -8.2507,
+      162
+    ],
+    [
+      43.2335,
+      -8.2522,
+      166
+    ],
+    [
+      43.231,
+      -8.2537,
+      170
+    ],
+    [
+      43.2285,
+      -8.2552,
+      174
+    ],
+    [
+      43.226,
+      -8.2567,
+      178
+    ],
+    [
+      43.2235,
+      -8.2582,
+      182
+    ],
+    [
+      43.221,
+      -8.2597,
+      186
+    ],
+    [
+      43.2185,
+      -8.2612,
+      190
+    ],
+    [
+      43.21601,
+      -8.26253,
+      199
+    ],
+    [
+      43.21353,
+      -8.26387,
+      207
+    ],
+    [
+      43.21104,
+      -8.2652,
+      216
+    ],
+    [
+      43.20855,
+      -8.26653,
+      225
+    ],
+    [
+      43.20607,
+      -8.26787,
+      233
+    ],
+    [
+      43.20358,
+      -8.2692,
+      242
+    ],
+    [
+      43.20109,
+      -8.27053,
+      251
+    ],
+    [
+      43.19861,
+      -8.27187,
+      259
+    ],
+    [
+      43.19612,
+      -8.2732,
+      268
+    ],
+    [
+      43.19363,
+      -8.27453,
+      277
+    ],
+    [
+      43.19115,
+      -8.27587,
+      285
+    ],
+    [
+      43.18866,
+      -8.2772,
+      294
+    ],
+    [
+      43.18617,
+      -8.27853,
+      303
+    ],
+    [
+      43.18369,
+      -8.27987,
+      311
+    ],
+    [
+      43.1812,
+      -8.2812,
+      320
+    ],
+    [
+      43.1787,
+      -8.28245,
+      327
+    ],
+    [
+      43.1762,
+      -8.2837,
+      334
+    ],
+    [
+      43.1737,
+      -8.28495,
+      341
+    ],
+    [
+      43.1712,
+      -8.2862,
+      348
+    ],
+    [
+      43.1687,
+      -8.28745,
+      354
+    ],
+    [
+      43.1662,
+      -8.2887,
+      361
+    ],
+    [
+      43.1637,
+      -8.28995,
+      368
+    ],
+    [
+      43.1612,
+      -8.2912,
+      375
+    ],
+    [
+      43.1587,
+      -8.29245,
+      382
+    ],
+    [
+      43.1562,
+      -8.2937,
+      389
+    ],
+    [
+      43.1537,
+      -8.29495,
+      396
+    ],
+    [
+      43.1512,
+      -8.2962,
+      403
+    ],
+    [
+      43.1487,
+      -8.29745,
+      409
+    ],
+    [
+      43.1462,
+      -8.2987,
+      416
+    ],
+    [
+      43.1437,
+      -8.29995,
+      423
+    ],
+    [
+      43.1412,
+      -8.3012,
+      430
+    ],
+    [
+      43.1392,
+      -8.30393,
+      432
+    ],
+    [
+      43.1372,
+      -8.30666,
+      434
+    ],
+    [
+      43.1352,
+      -8.30939,
+      436
+    ],
+    [
+      43.1332,
+      -8.31212,
+      438
+    ],
+    [
+      43.1312,
+      -8.31485,
+      440
+    ],
+    [
+      43.1292,
+      -8.31758,
+      442
+    ],
+    [
+      43.1272,
+      -8.32031,
+      444
+    ],
+    [
+      43.1252,
+      -8.32304,
+      446
+    ],
+    [
+      43.1232,
+      -8.32577,
+      448
+    ],
+    [
+      43.1212,
+      -8.3285,
+      450
+    ],
+    [
+      43.11885,
+      -8.33042,
+      448
+    ],
+    [
+      43.11649,
+      -8.33235,
+      445
+    ],
+    [
+      43.11414,
+      -8.33427,
+      443
+    ],
+    [
+      43.11179,
+      -8.33619,
+      441
+    ],
+    [
+      43.10944,
+      -8.33812,
+      438
+    ],
+    [
+      43.10708,
+      -8.34004,
+      436
+    ],
+    [
+      43.10473,
+      -8.34196,
+      434
+    ],
+    [
+      43.10238,
+      -8.34389,
+      431
+    ],
+    [
+      43.10002,
+      -8.34581,
+      429
+    ],
+    [
+      43.09767,
+      -8.34774,
+      426
+    ],
+    [
+      43.09532,
+      -8.34966,
+      424
+    ],
+    [
+      43.09296,
+      -8.35158,
+      422
+    ],
+    [
+      43.09061,
+      -8.35351,
+      419
+    ],
+    [
+      43.08826,
+      -8.35543,
+      417
+    ],
+    [
+      43.08591,
+      -8.35735,
+      415
+    ],
+    [
+      43.08355,
+      -8.35928,
+      412
+    ],
+    [
+      43.0812,
+      -8.3612,
+      410
+    ],
+    [
+      43.07882,
+      -8.36298,
+      408
+    ],
+    [
+      43.07644,
+      -8.36475,
+      405
+    ],
+    [
+      43.07406,
+      -8.36653,
+      403
+    ],
+    [
+      43.07168,
+      -8.3683,
+      400
+    ],
+    [
+      43.0693,
+      -8.37008,
+      398
+    ],
+    [
+      43.06691,
+      -8.37186,
+      396
+    ],
+    [
+      43.06453,
+      -8.37363,
+      393
+    ],
+    [
+      43.06215,
+      -8.37541,
+      391
+    ],
+    [
+      43.05977,
+      -8.37719,
+      389
+    ],
+    [
+      43.05739,
+      -8.37896,
+      386
+    ],
+    [
+      43.05501,
+      -8.38074,
+      384
+    ],
+    [
+      43.05263,
+      -8.38251,
+      381
+    ],
+    [
+      43.05025,
+      -8.38429,
+      379
+    ],
+    [
+      43.04787,
+      -8.38607,
+      377
+    ],
+    [
+      43.04549,
+      -8.38784,
+      374
+    ],
+    [
+      43.0431,
+      -8.38962,
+      372
+    ],
+    [
+      43.04072,
+      -8.3914,
+      370
+    ],
+    [
+      43.03834,
+      -8.39317,
+      367
+    ],
+    [
+      43.03596,
+      -8.39495,
+      365
+    ],
+    [
+      43.03358,
+      -8.39672,
+      362
+    ],
+    [
+      43.0312,
+      -8.3985,
+      360
+    ],
+    [
+      43.02902,
+      -8.40068,
+      358
+    ],
+    [
+      43.02684,
+      -8.40286,
+      356
+    ],
+    [
+      43.02466,
+      -8.40504,
+      354
+    ],
+    [
+      43.02248,
+      -8.40722,
+      352
+    ],
+    [
+      43.0203,
+      -8.4094,
+      350
+    ],
+    [
+      43.01812,
+      -8.41158,
+      348
+    ],
+    [
+      43.01594,
+      -8.41376,
+      346
+    ],
+    [
+      43.01376,
+      -8.41594,
+      344
+    ],
+    [
+      43.01158,
+      -8.41812,
+      342
+    ],
+    [
+      43.0094,
+      -8.4203,
+      340
+    ],
+    [
+      43.00722,
+      -8.42248,
+      338
+    ],
+    [
+      43.00504,
+      -8.42466,
+      336
+    ],
+    [
+      43.00286,
+      -8.42684,
+      334
+    ],
+    [
+      43.00068,
+      -8.42902,
+      332
+    ],
+    [
+      42.9985,
+      -8.4312,
+      330
+    ],
+    [
+      42.99577,
+      -8.43211,
+      326
+    ],
+    [
+      42.99305,
+      -8.43302,
+      323
+    ],
+    [
+      42.99032,
+      -8.43393,
+      319
+    ],
+    [
+      42.98759,
+      -8.43484,
+      315
+    ],
+    [
+      42.98486,
+      -8.43575,
+      312
+    ],
+    [
+      42.98214,
+      -8.43665,
+      308
+    ],
+    [
+      42.97941,
+      -8.43756,
+      305
+    ],
+    [
+      42.97668,
+      -8.43847,
+      301
+    ],
+    [
+      42.97395,
+      -8.43938,
+      297
+    ],
+    [
+      42.97123,
+      -8.44029,
+      294
+    ],
+    [
+      42.9685,
+      -8.4412,
+      290
+    ],
+    [
+      42.96663,
+      -8.4437,
+      291
+    ],
+    [
+      42.96475,
+      -8.4462,
+      293
+    ],
+    [
+      42.96287,
+      -8.4487,
+      294
+    ],
+    [
+      42.961,
+      -8.4512,
+      295
+    ],
+    [
+      42.95913,
+      -8.4537,
+      296
+    ],
+    [
+      42.95725,
+      -8.4562,
+      298
+    ],
+    [
+      42.95537,
+      -8.4587,
+      299
+    ],
+    [
+      42.9535,
+      -8.4612,
+      300
+    ],
+    [
+      42.95162,
+      -8.4637,
+      301
+    ],
+    [
+      42.94975,
+      -8.4662,
+      303
+    ],
+    [
+      42.94787,
+      -8.4687,
+      304
+    ],
+    [
+      42.946,
+      -8.4712,
+      305
+    ],
+    [
+      42.94412,
+      -8.4737,
+      306
+    ],
+    [
+      42.94225,
+      -8.4762,
+      308
+    ],
+    [
+      42.94037,
+      -8.4787,
+      309
+    ],
+    [
+      42.9385,
+      -8.4812,
+      310
+    ],
+    [
+      42.9365,
+      -8.48393,
+      308
+    ],
+    [
+      42.9345,
+      -8.48666,
+      306
+    ],
+    [
+      42.9325,
+      -8.48939,
+      304
+    ],
+    [
+      42.9305,
+      -8.49212,
+      302
+    ],
+    [
+      42.9285,
+      -8.49485,
+      300
+    ],
+    [
+      42.9265,
+      -8.49758,
+      298
+    ],
+    [
+      42.9245,
+      -8.50031,
+      296
+    ],
+    [
+      42.9225,
+      -8.50304,
+      294
+    ],
+    [
+      42.9205,
+      -8.50577,
+      292
+    ],
+    [
+      42.9185,
+      -8.5085,
+      290
+    ],
+    [
+      42.91634,
+      -8.511,
+      288
+    ],
+    [
+      42.91418,
+      -8.5135,
+      285
+    ],
+    [
+      42.91201,
+      -8.516,
+      283
+    ],
+    [
+      42.90985,
+      -8.5185,
+      280
+    ],
+    [
+      42.90769,
+      -8.521,
+      278
+    ],
+    [
+      42.90553,
+      -8.5235,
+      275
+    ],
+    [
+      42.90336,
+      -8.526,
+      273
+    ],
+    [
+      42.9012,
+      -8.5285,
+      270
+    ],
+    [
+      42.89866,
+      -8.5305,
+      269
+    ],
+    [
+      42.89612,
+      -8.5325,
+      268
+    ],
+    [
+      42.89358,
+      -8.5345,
+      267
+    ],
+    [
+      42.89104,
+      -8.5365,
+      266
+    ],
+    [
+      42.8885,
+      -8.5385,
+      265
+    ],
+    [
+      42.88587,
+      -8.54053,
+      263
+    ],
+    [
+      42.88323,
+      -8.54257,
+      262
+    ],
+    [
+      42.8806,
+      -8.5446,
+      260
+    ]
+  ],
+  "stages": [
+    {
+      "n": 1,
+      "name": "Ferrol → Betanzos",
+      "startName": "Ferrol",
+      "endName": "Betanzos",
+      "from": 0,
+      "to": 142,
+      "km": 42.5,
+      "gain": 409,
+      "loss": 172,
+      "difficulty": "Asequible",
+      "mtbTips": "Etapa 1 de MTB con 42.5 km y +409 m de desnivel acumulado. Revisar frenos y llevar agua suficiente.",
+      "services": [
+        "albergue",
+        "fuente",
+        "restaurante",
+        "taller",
+        "farmacia"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Betanzos → Santiago de Compostela",
+      "startName": "Betanzos",
+      "endName": "Santiago de Compostela",
+      "from": 142,
+      "to": 283,
+      "km": 43,
+      "gain": 228,
+      "loss": 210,
+      "difficulty": "Asequible",
+      "mtbTips": "Etapa 2 de MTB con 43 km y +228 m de desnivel acumulado. Revisar frenos y llevar agua suficiente.",
+      "services": [
+        "albergue",
+        "fuente",
+        "restaurante",
+        "taller",
+        "farmacia"
+      ]
+    }
+  ],
+  "pois": [
+    {
+      "id": "poi-ingles-h-1",
+      "caminoId": "ingles",
+      "name": "Albergue Privado Casa del Ciclista (INGLES)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 43.4837,
+      "lng": -8.2325,
+      "phone": "+34 986 60 11 22",
+      "price": "15€ - 18€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 11",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-ingles-r-1",
+      "caminoId": "ingles",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 43.484,
+      "lng": -8.2338,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 6",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-ingles-fnt-1",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 0",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 43.4835,
+      "lng": -8.2333,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-h-2",
+      "caminoId": "ingles",
+      "name": "Albergue y Hostal Parroquial (INGLES)",
+      "category": "albergue",
+      "type": "parroquial",
+      "lat": 43.5017,
+      "lng": -8.179,
+      "phone": "+34 982 53 10 05",
+      "price": "Donativo / 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 12",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-ingles-t-2",
+      "caminoId": "ingles",
+      "name": "Ciclos Peregrino MTB Shop",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 43.502,
+      "lng": -8.1778,
+      "phone": "+34 982 10 99 44",
+      "hours": "09:00 - 19:30",
+      "address": "Av. de las Ruedas, 4",
+      "ebikeService": false
+    },
+    {
+      "id": "poi-ingles-r-2",
+      "caminoId": "ingles",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 43.5015,
+      "lng": -8.1793,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 7",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-ingles-fnt-2",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 6",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 43.501,
+      "lng": -8.1788,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-h-3",
+      "caminoId": "ingles",
+      "name": "Albergue Turístico Bici-Camino (INGLES)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 43.46537,
+      "lng": -8.16815,
+      "phone": "+34 987 84 92 10",
+      "price": "16€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 13",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-ingles-f-3",
+      "caminoId": "ingles",
+      "name": "Farmacia del Peregrino",
+      "category": "farmacia",
+      "type": "farmacia",
+      "lat": 43.46527,
+      "lng": -8.16825,
+      "phone": "+34 986 11 22 33",
+      "hours": "09:00 - 21:00",
+      "address": "Praza Mayor, 3"
+    },
+    {
+      "id": "poi-ingles-r-3",
+      "caminoId": "ingles",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 43.46617,
+      "lng": -8.16945,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 8",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-ingles-fnt-3",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 13",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 43.46567,
+      "lng": -8.16895,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-h-4",
+      "caminoId": "ingles",
+      "name": "Albergue Municipal de Peregrinos (INGLES)",
+      "category": "albergue",
+      "type": "publico",
+      "lat": 43.41866,
+      "lng": -8.1717,
+      "phone": "+34 981 58 77 66",
+      "price": "8€ - 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 14",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-ingles-t-4",
+      "caminoId": "ingles",
+      "name": "Bici-Service & Recambios Urgentes",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 43.41946,
+      "lng": -8.1705,
+      "phone": "+34 986 22 44 88",
+      "hours": "08:30 - 20:30",
+      "address": "Av. de las Ruedas, 8",
+      "ebikeService": true
+    },
+    {
+      "id": "poi-ingles-r-4",
+      "caminoId": "ingles",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 43.41896,
+      "lng": -8.172,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 9",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-ingles-fnt-4",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 19",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 43.41846,
+      "lng": -8.1715,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-m-4",
+      "caminoId": "ingles",
+      "name": "Centro de Salud y Urgencias",
+      "category": "salud",
+      "type": "salud",
+      "lat": 43.41986,
+      "lng": -8.1702,
+      "phone": "112 / +34 981 54 00 00",
+      "hours": "Urgencias 24h",
+      "address": "Centro Asistencial comarcal"
+    },
+    {
+      "id": "poi-ingles-h-5",
+      "caminoId": "ingles",
+      "name": "Albergue Privado Casa del Ciclista (INGLES)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 43.37795,
+      "lng": -8.19335,
+      "phone": "+34 986 60 11 22",
+      "price": "15€ - 18€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 15",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-ingles-r-5",
+      "caminoId": "ingles",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 43.37775,
+      "lng": -8.19465,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 10",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-ingles-fnt-5",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 25",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 43.37725,
+      "lng": -8.19415,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-h-6",
+      "caminoId": "ingles",
+      "name": "Albergue y Hostal Parroquial (INGLES)",
+      "category": "albergue",
+      "type": "parroquial",
+      "lat": 43.33254,
+      "lng": -8.2117,
+      "phone": "+34 982 53 10 05",
+      "price": "Donativo / 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 16",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-ingles-t-6",
+      "caminoId": "ingles",
+      "name": "Taller Bicicletas y Reparación MTB",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 43.33384,
+      "lng": -8.2105,
+      "phone": "+34 981 59 33 22",
+      "hours": "09:00 - 20:00",
+      "address": "Av. de las Ruedas, 12",
+      "ebikeService": true
+    },
+    {
+      "id": "poi-ingles-f-6",
+      "caminoId": "ingles",
+      "name": "Farmacia Principal y Guardia",
+      "category": "farmacia",
+      "type": "farmacia",
+      "lat": 43.33244,
+      "lng": -8.2108,
+      "phone": "+34 981 56 12 34",
+      "hours": "Guardia 24h",
+      "address": "Praza Mayor, 6"
+    },
+    {
+      "id": "poi-ingles-r-6",
+      "caminoId": "ingles",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 43.33334,
+      "lng": -8.212,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 11",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-ingles-fnt-6",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 31",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 43.33284,
+      "lng": -8.2115,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-h-7",
+      "caminoId": "ingles",
+      "name": "Albergue Turístico Bici-Camino (INGLES)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 43.28393,
+      "lng": -8.2107,
+      "phone": "+34 987 84 92 10",
+      "price": "16€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 17",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-ingles-r-7",
+      "caminoId": "ingles",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 43.28423,
+      "lng": -8.212,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 12",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-ingles-fnt-7",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 38",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 43.28373,
+      "lng": -8.2115,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-h-8",
+      "caminoId": "ingles",
+      "name": "Albergue Municipal de Peregrinos (INGLES)",
+      "category": "albergue",
+      "type": "publico",
+      "lat": 43.244,
+      "lng": -8.2467,
+      "phone": "+34 981 58 77 66",
+      "price": "8€ - 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 18",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-ingles-t-8",
+      "caminoId": "ingles",
+      "name": "Ciclos Peregrino MTB Shop",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 43.2443,
+      "lng": -8.2455,
+      "phone": "+34 982 10 99 44",
+      "hours": "09:00 - 19:30",
+      "address": "Av. de las Ruedas, 16",
+      "ebikeService": false
+    },
+    {
+      "id": "poi-ingles-r-8",
+      "caminoId": "ingles",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 43.2438,
+      "lng": -8.247,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 13",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-ingles-fnt-8",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 44",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 43.2433,
+      "lng": -8.2465,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-m-8",
+      "caminoId": "ingles",
+      "name": "Centro de Salud y Urgencias",
+      "category": "salud",
+      "type": "salud",
+      "lat": 43.2447,
+      "lng": -8.2452,
+      "phone": "112 / +34 981 54 00 00",
+      "hours": "Urgencias 24h",
+      "address": "Centro Asistencial comarcal"
+    },
+    {
+      "id": "poi-ingles-h-9",
+      "caminoId": "ingles",
+      "name": "Albergue Privado Casa del Ciclista (INGLES)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 43.19811,
+      "lng": -8.27137,
+      "phone": "+34 986 60 11 22",
+      "price": "15€ - 18€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 19",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-ingles-f-9",
+      "caminoId": "ingles",
+      "name": "Farmacia del Peregrino",
+      "category": "farmacia",
+      "type": "farmacia",
+      "lat": 43.19801,
+      "lng": -8.27147,
+      "phone": "+34 986 11 22 33",
+      "hours": "09:00 - 21:00",
+      "address": "Praza Mayor, 9"
+    },
+    {
+      "id": "poi-ingles-r-9",
+      "caminoId": "ingles",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 43.19891,
+      "lng": -8.27267,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 14",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-ingles-fnt-9",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 50",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 43.19841,
+      "lng": -8.27217,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-h-10",
+      "caminoId": "ingles",
+      "name": "Albergue y Hostal Parroquial (INGLES)",
+      "category": "albergue",
+      "type": "parroquial",
+      "lat": 43.1537,
+      "lng": -8.29545,
+      "phone": "+34 982 53 10 05",
+      "price": "Donativo / 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 20",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-ingles-t-10",
+      "caminoId": "ingles",
+      "name": "Bici-Service & Recambios Urgentes",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 43.1545,
+      "lng": -8.29425,
+      "phone": "+34 986 22 44 88",
+      "hours": "08:30 - 20:30",
+      "address": "Av. de las Ruedas, 20",
+      "ebikeService": true
+    },
+    {
+      "id": "poi-ingles-r-10",
+      "caminoId": "ingles",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 43.154,
+      "lng": -8.29575,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 15",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-ingles-fnt-10",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 57",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 43.1535,
+      "lng": -8.29525,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-h-11",
+      "caminoId": "ingles",
+      "name": "Albergue Turístico Bici-Camino (INGLES)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 43.11464,
+      "lng": -8.33377,
+      "phone": "+34 987 84 92 10",
+      "price": "16€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 21",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-ingles-r-11",
+      "caminoId": "ingles",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 43.11444,
+      "lng": -8.33507,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 16",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-ingles-fnt-11",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 63",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 43.11394,
+      "lng": -8.33457,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-h-12",
+      "caminoId": "ingles",
+      "name": "Albergue Municipal de Peregrinos (INGLES)",
+      "category": "albergue",
+      "type": "publico",
+      "lat": 43.07118,
+      "lng": -8.3688,
+      "phone": "+34 981 58 77 66",
+      "price": "8€ - 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 22",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-ingles-t-12",
+      "caminoId": "ingles",
+      "name": "Taller Bicicletas y Reparación MTB",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 43.07248,
+      "lng": -8.3676,
+      "phone": "+34 981 59 33 22",
+      "hours": "09:00 - 20:00",
+      "address": "Av. de las Ruedas, 24",
+      "ebikeService": true
+    },
+    {
+      "id": "poi-ingles-f-12",
+      "caminoId": "ingles",
+      "name": "Farmacia Principal y Guardia",
+      "category": "farmacia",
+      "type": "farmacia",
+      "lat": 43.07108,
+      "lng": -8.3679,
+      "phone": "+34 981 56 12 34",
+      "hours": "Guardia 24h",
+      "address": "Praza Mayor, 12"
+    },
+    {
+      "id": "poi-ingles-r-12",
+      "caminoId": "ingles",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 43.07198,
+      "lng": -8.3691,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 17",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-ingles-fnt-12",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 69",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 43.07148,
+      "lng": -8.3686,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-m-12",
+      "caminoId": "ingles",
+      "name": "Centro de Salud y Urgencias",
+      "category": "salud",
+      "type": "salud",
+      "lat": 43.07288,
+      "lng": -8.3673,
+      "phone": "112 / +34 981 54 00 00",
+      "hours": "Urgencias 24h",
+      "address": "Centro Asistencial comarcal"
+    },
+    {
+      "id": "poi-ingles-h-13",
+      "caminoId": "ingles",
+      "name": "Albergue Privado Casa del Ciclista (INGLES)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 43.02902,
+      "lng": -8.40018,
+      "phone": "+34 986 60 11 22",
+      "price": "15€ - 18€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 23",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-ingles-r-13",
+      "caminoId": "ingles",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 43.02932,
+      "lng": -8.40148,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 18",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-ingles-fnt-13",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 76",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 43.02882,
+      "lng": -8.40098,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-h-14",
+      "caminoId": "ingles",
+      "name": "Albergue y Hostal Parroquial (INGLES)",
+      "category": "albergue",
+      "type": "parroquial",
+      "lat": 42.98809,
+      "lng": -8.43534,
+      "phone": "+34 982 53 10 05",
+      "price": "Donativo / 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 24",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-ingles-t-14",
+      "caminoId": "ingles",
+      "name": "Ciclos Peregrino MTB Shop",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 42.98839,
+      "lng": -8.43414,
+      "phone": "+34 982 10 99 44",
+      "hours": "09:00 - 19:30",
+      "address": "Av. de las Ruedas, 28",
+      "ebikeService": false
+    },
+    {
+      "id": "poi-ingles-r-14",
+      "caminoId": "ingles",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.98789,
+      "lng": -8.43564,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 19",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-ingles-fnt-14",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 82",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.98739,
+      "lng": -8.43514,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-h-15",
+      "caminoId": "ingles",
+      "name": "Albergue Turístico Bici-Camino (INGLES)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 42.94737,
+      "lng": -8.4682,
+      "phone": "+34 987 84 92 10",
+      "price": "16€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 25",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-ingles-f-15",
+      "caminoId": "ingles",
+      "name": "Farmacia del Peregrino",
+      "category": "farmacia",
+      "type": "farmacia",
+      "lat": 42.94727,
+      "lng": -8.4683,
+      "phone": "+34 986 11 22 33",
+      "hours": "09:00 - 21:00",
+      "address": "Praza Mayor, 15"
+    },
+    {
+      "id": "poi-ingles-r-15",
+      "caminoId": "ingles",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.94817,
+      "lng": -8.4695,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 20",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-ingles-fnt-15",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 88",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.94767,
+      "lng": -8.469,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-h-16",
+      "caminoId": "ingles",
+      "name": "Albergue Municipal de Peregrinos (INGLES)",
+      "category": "albergue",
+      "type": "publico",
+      "lat": 42.91201,
+      "lng": -8.5165,
+      "phone": "+34 981 58 77 66",
+      "price": "8€ - 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 26",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-ingles-t-16",
+      "caminoId": "ingles",
+      "name": "Bici-Service & Recambios Urgentes",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 42.91281,
+      "lng": -8.5153,
+      "phone": "+34 986 22 44 88",
+      "hours": "08:30 - 20:30",
+      "address": "Av. de las Ruedas, 32",
+      "ebikeService": true
+    },
+    {
+      "id": "poi-ingles-r-16",
+      "caminoId": "ingles",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.91231,
+      "lng": -8.5168,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 21",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-ingles-fnt-16",
+      "caminoId": "ingles",
+      "name": "Fuente de Agua Potable km 95",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.91181,
+      "lng": -8.5163,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-ingles-m-16",
+      "caminoId": "ingles",
+      "name": "Centro de Salud y Urgencias",
+      "category": "salud",
+      "type": "salud",
+      "lat": 42.91321,
+      "lng": -8.515,
+      "phone": "112 / +34 981 54 00 00",
+      "hours": "Urgencias 24h",
+      "address": "Centro Asistencial comarcal"
+    }
+  ]
+}
