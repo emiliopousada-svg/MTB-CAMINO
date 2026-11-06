@@ -42,7 +42,7 @@ let html = fs.readFileSync(file, 'utf8');
 const swaps = [
   ['https://unpkg.com/leaflet@1.9.4/dist/leaflet.css', 'lib/leaflet/leaflet.css'],
   ['https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', 'lib/leaflet/leaflet.js'],
-  ['https://cdn.jsdelivr.net/gh/tomickigrzegorz/leaflet-rotate@v0.3.0/dist/leaflet-rotate.umd.min.js', 'lib/leaflet/leaflet-rotate.umd.min.js'],
+  ['vendor/leaflet-rotate.umd.min.js', 'lib/leaflet/leaflet-rotate.umd.min.js'],
   ['https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js', 'lib/chart.umd.js']
 ];
 for (const [from, to] of swaps) {

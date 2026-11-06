@@ -1,8 +1,13 @@
 {
   "name": "Camino MTB",
   "short_name": "Camino MTB",
+<<<<<<< HEAD
+  "description": "Navegacion GPS del Camino de Santiago en MTB",
+  "start_url": "./",
+=======
   "description": "Navegación GPS del Camino de Santiago en MTB",
   "start_url": "/",
+>>>>>>> 47f9f94195dd43bf109dc5fc821f881757289089
   "display": "standalone",
   "background_color": "#121212",
   "theme_color": "#2d5016",
