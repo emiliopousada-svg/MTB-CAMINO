@@ -1,0 +1,10 @@
+{
+  "appId": "com.emiliopousada.caminomtb",
+  "appName": "Camino MTB",
+  "webDir": "www",
+  "server": { "androidScheme": "https" },
+  "android": {
+    "backgroundColor": "#121212",
+    "useLegacyBridge": true
+  }
+}
