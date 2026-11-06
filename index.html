@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -755,4 +756,763 @@
     });
   </script>
 </body>
+=======
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="theme-color" content="#2d5016" />
+  <title>Camino MTB</title>
+
+  <!-- Manifest PWA -->
+  <link rel="manifest" href="manifest.json" />
+  <link rel="icon" type="image/png" href="icon-192.png" />
+  <link rel="apple-touch-icon" href="icon-192.png" />
+
+  <!-- Leaflet CSS (se localizará en el build) -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+  <style>
+    /* ============================================================
+       RESET Y BASE
+       ============================================================ */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    html, body {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: #121212;
+      color: #fff;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+
+    /* ============================================================
+       LAYOUT PRINCIPAL
+       ============================================================ */
+    #app {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ============================================================
+       MAPA (ocupa toda la pantalla)
+       ============================================================ */
+    #map {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      background: #1a1a1a;
+    }
+
+    /* ============================================================
+       PANEL SUPERIOR (info del Camino/Etapa)
+       ============================================================ */
+    #top-panel {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0));
+      padding: 50px 15px 15px;
+      pointer-events: none;
+    }
+
+    #top-panel > * {
+      pointer-events: auto;
+    }
+
+    #camino-info {
+      background: rgba(45, 80, 22, 0.95);
+      padding: 12px 15px;
+      border-radius: 12px;
+      backdrop-filter: blur(10px);
+    }
+
+    #camino-name {
+      font-size: 16px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    #stage-info {
+      font-size: 13px;
+      opacity: 0.9;
+    }
+
+    /* ============================================================
+       BOTÓN CENTRAR POSICIÓN
+       ============================================================ */
+    #btn-center {
+      position: absolute;
+      right: 15px;
+      bottom: 280px;
+      z-index: 100;
+      width: 50px;
+      height: 50px;
+      background: white;
+      border: 2px solid #ccc;
+      border-radius: 50%;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      transition: all 0.2s;
+    }
+
+    #btn-center:active {
+      transform: scale(0.95);
+    }
+
+    #btn-center.active {
+      background: #4285f4;
+      border-color: #4285f4;
+      color: white;
+    }
+
+    /* ============================================================
+       PANEL INFERIOR (perfil + métricas + controles)
+       ============================================================ */
+    #bottom-panel {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      background: white;
+      border-radius: 20px 20px 0 0;
+      box-shadow: 0 -4px 16px rgba(0,0,0,0.2);
+      max-height: 45vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Handle para arrastrar (opcional) */
+    #bottom-panel::before {
+      content: '';
+      display: block;
+      width: 40px;
+      height: 4px;
+      background: #ccc;
+      border-radius: 2px;
+      margin: 10px auto 5px;
+    }
+
+    /* Perfil de elevación */
+    #elevation-profile {
+      width: 100%;
+      height: 100px;
+      position: relative;
+      background: #f8f8f8;
+      border-bottom: 1px solid #eee;
+      flex-shrink: 0;
+    }
+
+    /* Métricas */
+    .metrics-panel {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 8px;
+      padding: 10px 15px;
+      border-bottom: 1px solid #eee;
+      flex-shrink: 0;
+    }
+
+    .metric-item {
+      text-align: center;
+    }
+
+    .metric-value {
+      font-size: 20px;
+      font-weight: bold;
+      color: #2d5016;
+    }
+
+    .metric-label {
+      font-size: 10px;
+      color: #666;
+      text-transform: uppercase;
+      margin-top: 2px;
+    }
+
+    /* Botones de control */
+    .controls-panel {
+      display: flex;
+      gap: 10px;
+      padding: 12px 15px 20px;
+      flex-shrink: 0;
+    }
+
+    .btn-control {
+      flex: 1;
+      padding: 14px;
+      border: none;
+      border-radius: 12px;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .btn-control:active {
+      transform: scale(0.97);
+    }
+
+    .btn-primary {
+      background: #2d5016;
+      color: white;
+    }
+
+    .btn-secondary {
+      background: #f0f0f0;
+      color: #333;
+    }
+
+    .btn-danger {
+      background: #d32f2f;
+      color: white;
+    }
+
+    .btn-control:disabled {
+      opacity: 0.5;
+      cursor: not-allowed;
+    }
+
+    /* ============================================================
+       TOASTS (notificaciones)
+       ============================================================ */
+    #toast-container {
+      position: fixed;
+      top: 60px;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 9999;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      pointer-events: none;
+    }
+
+    .toast {
+      background: rgba(0,0,0,0.9);
+      color: white;
+      padding: 12px 20px;
+      border-radius: 24px;
+      font-size: 14px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      animation: toast-in 0.3s ease;
+    }
+
+    @keyframes toast-in {
+      from { opacity: 0; transform: translateY(-20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ============================================================
+       MODAL
+       ============================================================ */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.6);
+      z-index: 10000;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .modal-box {
+      background: white;
+      color: #333;
+      border-radius: 16px;
+      padding: 24px;
+      max-width: 400px;
+      width: 100%;
+    }
+
+    .modal-box h3 {
+      margin-bottom: 12px;
+      color: #2d5016;
+    }
+
+    .modal-box p {
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .modal-actions {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-end;
+    }
+
+    /* ============================================================
+       SELECTOR DE CAMINO (pantalla inicial)
+       ============================================================ */
+    #camino-selector {
+      position: absolute;
+      inset: 0;
+      z-index: 200;
+      background: white;
+      color: #333;
+      overflow-y: auto;
+      padding: 60px 20px 20px;
+    }
+
+    #camino-selector h1 {
+      color: #2d5016;
+      margin-bottom: 8px;
+      font-size: 28px;
+    }
+
+    #camino-selector p {
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .camino-card {
+      background: #f8f8f8;
+      border: 2px solid #eee;
+      border-radius: 12px;
+      padding: 15px;
+      margin-bottom: 12px;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .camino-card:active {
+      transform: scale(0.98);
+      border-color: #2d5016;
+    }
+
+    .camino-card h3 {
+      color: #2d5016;
+      margin-bottom: 6px;
+    }
+
+    .camino-card .meta {
+      font-size: 13px;
+      color: #666;
+    }
+
+    /* ============================================================
+       MARCADOR DE POSICIÓN (Leaflet)
+       ============================================================ */
+    .position-marker {
+      background: transparent !important;
+      border: none !important;
+    }
+
+    /* ============================================================
+       TOOLTIP DEL PERFIL
+       ============================================================ */
+    .elevation-tooltip {
+      white-space: nowrap;
+    }
+
+    /* ============================================================
+       TEMA OSCURO
+       ============================================================ */
+    @media (prefers-color-scheme: dark) {
+      #bottom-panel {
+        background: #1e1e1e;
+        color: #fff;
+      }
+      #elevation-profile {
+        background: #2a2a2a;
+      }
+      .metrics-panel, #elevation-profile {
+        border-color: #333;
+      }
+      .metric-value { color: #7cb342; }
+      .metric-label { color: #999; }
+      .btn-secondary { background: #333; color: #fff; }
+      .camino-card { background: #2a2a2a; border-color: #333; }
+      .camino-card .meta { color: #999; }
+    }
+  </style>
+</head>
+<body>
+  <div id="app">
+
+    <!-- ============================================================
+         MAPA (Leaflet)
+         ============================================================ -->
+    <div id="map"></div>
+
+    <!-- ============================================================
+         PANEL SUPERIOR (info del Camino/Etapa)
+         ============================================================ -->
+    <div id="top-panel">
+      <div id="camino-info">
+        <div id="camino-name">Selecciona un Camino</div>
+        <div id="stage-info">—</div>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         BOTÓN CENTRAR POSICIÓN
+         ============================================================ -->
+    <button id="btn-center" title="Centrar en mi posición">📍</button>
+
+    <!-- ============================================================
+         PANEL INFERIOR
+         ============================================================ -->
+    <div id="bottom-panel">
+
+      <!-- Perfil de elevación -->
+      <div id="elevation-profile"></div>
+
+      <!-- Métricas -->
+      <div class="metrics-panel">
+        <div class="metric-item">
+          <div class="metric-value" id="metric-distance">0.0</div>
+          <div class="metric-label">km</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-value" id="metric-elevation">0</div>
+          <div class="metric-label">desnivel +</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-value" id="metric-speed">0.0</div>
+          <div class="metric-label">km/h</div>
+        </div>
+        <div class="metric-item">
+          <div class="metric-value" id="metric-remaining">—</div>
+          <div class="metric-label">restante</div>
+        </div>
+      </div>
+
+      <!-- Botones de control -->
+      <div class="controls-panel">
+        <button id="btn-start" class="btn-control btn-primary">
+          <span>▶️</span>
+          <span>COMENZAR</span>
+        </button>
+        <button id="btn-pause" class="btn-control btn-secondary" style="display:none;">
+          <span>⏸️</span>
+          <span>PAUSAR</span>
+        </button>
+        <button id="btn-resume" class="btn-control btn-primary" style="display:none;">
+          <span>▶️</span>
+          <span>REANUDAR</span>
+        </button>
+        <button id="btn-stop" class="btn-control btn-danger" style="display:none;">
+          <span>⏹️</span>
+          <span>PARAR</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- ============================================================
+         SELECTOR DE CAMINO (pantalla inicial)
+         ============================================================ -->
+    <div id="camino-selector" style="display:none;">
+      <h1>🚵 Camino MTB</h1>
+      <p>Selecciona el Camino que quieres recorrer</p>
+      <div id="camino-list"></div>
+    </div>
+
+    <!-- ============================================================
+         CONTENEDORES DE TOASTS Y MODALES
+         ============================================================ -->
+    <div id="toast-container"></div>
+
+  </div>
+
+  <!-- ============================================================
+       LIBRERÍAS (se localizarán en el build para APK)
+       ============================================================ -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="vendor/leaflet-rotate.umd.min.js"></script>
+
+  <!-- ============================================================
+       MÓDULOS DE LA APP (orden de carga importa)
+       ============================================================ -->
+  <script type="module">
+    // Core
+    import { CONFIG } from './src/core/config.js';
+    import { appState } from './src/core/state.js';
+    import { DB } from './src/core/db.js';
+    import { gpsManager } from './src/core/gps.js';
+
+    // Rutas
+    import { caminosManager } from './src/routes/caminos.js';
+    import { etapasManager } from './src/routes/etapas.js';
+
+    // Mapa
+    import { mapManager } from './src/map/map.js';
+    import { elevationProfile } from './src/map/elevation.js';
+
+    // ------------------------------------------------------------
+    // UTILIDADES UI
+    // ------------------------------------------------------------
+
+    function showToast(message, duration = 3000) {
+      const container = document.getElementById('toast-container');
+      const toast = document.createElement('div');
+      toast.className = 'toast';
+      toast.textContent = message;
+      container.appendChild(toast);
+      setTimeout(() => toast.remove(), duration);
+    }
+
+    function showModal({ title, message, ok = 'Aceptar', cancel = null }) {
+      return new Promise((resolve) => {
+        const overlay = document.createElement('div');
+        overlay.className = 'modal-overlay';
+        overlay.innerHTML = `
+          <div class="modal-box">
+            ${title ? `<h3>${title}</h3>` : ''}
+            <p>${message}</p>
+            <div class="modal-actions">
+              ${cancel ? `<button class="btn-control btn-secondary" data-action="cancel">${cancel}</button>` : ''}
+              <button class="btn-control btn-primary" data-action="ok">${ok}</button>
+            </div>
+          </div>
+        `;
+        document.body.appendChild(overlay);
+
+        overlay.addEventListener('click', (e) => {
+          const action = e.target.dataset.action;
+          if (action) {
+            overlay.remove();
+            resolve(action === 'ok');
+          }
+        });
+      });
+    }
+
+    // ------------------------------------------------------------
+    // INICIALIZACIÓN
+    // ------------------------------------------------------------
+
+    async function init() {
+      console.log('🚵 Iniciando Camino MTB...');
+
+      // Abrir base de datos
+      await DB.open();
+
+      // Inicializar GPS
+      await gpsManager.init();
+      await gpsManager.initBattery();
+
+      // Inicializar mapa
+      mapManager.init('map');
+
+      // Inicializar perfil de elevación
+      elevationProfile.init('elevation-profile');
+
+      // Cargar catálogo de caminos
+      await caminosManager.loadCatalog();
+
+      // Comprobar si hay un Camino seleccionado previamente
+      const restored = await caminosManager.restoreSelection();
+      if (restored) {
+        onCaminoSelected(restored);
+      } else {
+        showCaminoSelector();
+      }
+
+      // Comprobar borrador de sesión
+      const draft = await gpsManager.checkDraft();
+      if (draft) {
+        const ok = await showModal({
+          title: 'Grabación interrumpida',
+          message: `Hay una sesión pendiente de ${(draft.totalDistanceM / 1000).toFixed(2)} km. ¿Recuperarla?`,
+          ok: 'Recuperar',
+          cancel: 'Descartar'
+        });
+        if (ok) {
+          await gpsManager.restoreDraft(draft);
+          updateUIForState('paused');
+        }
+      }
+
+      // Suscribirse a eventos del GPS
+      gpsManager.on(handleGPSEvent);
+
+      console.log('✓ App lista');
+    }
+
+    // ------------------------------------------------------------
+    // SELECTOR DE CAMINO
+    // ------------------------------------------------------------
+
+    function showCaminoSelector() {
+      const selector = document.getElementById('camino-selector');
+      const list = document.getElementById('camino-list');
+      list.innerHTML = '';
+
+      caminosManager.getAll().forEach(camino => {
+        const card = document.createElement('div');
+        card.className = 'camino-card';
+        card.innerHTML = `
+          <h3>${camino.nombre}</h3>
+          <div class="meta">
+            ${camino.distanciaTotalKm} km · ${camino.numEtapas} etapas · ${camino.dificultad}
+          </div>
+          <div class="meta" style="margin-top:4px;">
+            ${camino.inicio} → ${camino.final}
+          </div>
+        `;
+        card.addEventListener('click', async () => {
+          selector.style.display = 'none';
+          const selected = await caminosManager.select(camino.id);
+          if (selected) onCaminoSelected(selected);
+        });
+        list.appendChild(card);
+      });
+
+      selector.style.display = 'block';
+    }
+
+    function onCaminoSelected(camino) {
+      document.getElementById('camino-selector').style.display = 'none';
+      document.getElementById('camino-name').textContent = camino.nombre;
+      document.getElementById('stage-info').textContent =
+        `${camino.distanciaTotalKm} km · ${camino.numEtapas} etapas`;
+
+      // Mostrar track en el mapa
+      mapManager.showRoute(caminosManager.getTrackPoints());
+
+      // Seleccionar primera etapa pendiente
+      const siguiente = etapasManager.getNextPending() || etapasManager.getByNumero(1);
+      if (siguiente) {
+        const etapa = etapasManager.select(siguiente.numero, caminosManager.getTrackPoints());
+        if (etapa) {
+          document.getElementById('stage-info').textContent =
+            `Etapa ${etapa.numero}: ${etapa.nombre}`;
+          elevationProfile.render(etapa.trackPoints, etapa.metrics);
+        }
+      }
+    }
+
+    // ------------------------------------------------------------
+    // EVENTOS DEL GPS
+    // ------------------------------------------------------------
+
+    function handleGPSEvent(event, data) {
+      switch (event) {
+        case 'metrics':
+          document.getElementById('metric-distance').textContent =
+            data.distanceKm.toFixed(1);
+          document.getElementById('metric-elevation').textContent =
+            data.elevationGain;
+          document.getElementById('metric-speed').textContent =
+            data.currentSpeed.toFixed(1);
+          document.getElementById('metric-remaining').textContent =
+            data.distanceRemainingKm > 0
+              ? `${data.distanceRemainingKm.toFixed(1)} km`
+              : '—';
+          break;
+
+        case 'deviation':
+          if (data.event === 'off-route') {
+            showToast(`⚠️ Te has salido del Camino (${data.distanceM} m)`, 5000);
+          } else if (data.event === 'back-on-route') {
+            showToast('✅ De nuevo en el Camino');
+          }
+          break;
+
+        case 'stage-complete':
+          showToast(`✅ ¡Etapa ${data.numero} completada!`, 5000);
+          break;
+
+        case 'battery-warning':
+          showToast(`🔋 Batería: ${data.level}%`, 5000);
+          break;
+      }
+    }
+
+    // ------------------------------------------------------------
+    // CONTROLES DE GRABACIÓN
+    // ------------------------------------------------------------
+
+    function updateUIForState(state) {
+      const btnStart = document.getElementById('btn-start');
+      const btnPause = document.getElementById('btn-pause');
+      const btnResume = document.getElementById('btn-resume');
+      const btnStop = document.getElementById('btn-stop');
+
+      btnStart.style.display = state === 'idle' ? 'flex' : 'none';
+      btnPause.style.display = state === 'recording' ? 'flex' : 'none';
+      btnResume.style.display = state === 'paused' ? 'flex' : 'none';
+      btnStop.style.display = state === 'idle' ? 'none' : 'flex';
+    }
+
+    document.getElementById('btn-start').addEventListener('click', async () => {
+      await gpsManager.startTracking();
+      const etapa = etapasManager.getSelected();
+      if (etapa) await etapasManager.start(etapa.numero);
+      updateUIForState('recording');
+      showToast('🔴 Grabando etapa...');
+    });
+
+    document.getElementById('btn-pause').addEventListener('click', () => {
+      gpsManager.pauseTracking();
+      updateUIForState('paused');
+      showToast('⏸️ Etapa en pausa');
+    });
+
+    document.getElementById('btn-resume').addEventListener('click', async () => {
+      await gpsManager.resumeTracking();
+      updateUIForState('recording');
+      showToast('▶️ Reanudando etapa...');
+    });
+
+    document.getElementById('btn-stop').addEventListener('click', async () => {
+      const ok = await showModal({
+        title: '¿Parar la etapa?',
+        message: 'Se guardará el progreso realizado.',
+        ok: 'Parar',
+        cancel: 'Seguir'
+      });
+      if (!ok) return;
+
+      const session = gpsManager.stopTracking();
+      updateUIForState('idle');
+      if (session) {
+        showToast(`✅ Etapa guardada: ${session.distanceKm.toFixed(2)} km`);
+      }
+    });
+
+    // Botón centrar
+    document.getElementById('btn-center').addEventListener('click', () => {
+      mapManager.centerOnPosition();
+    });
+
+    // ------------------------------------------------------------
+    // ARRANCAR
+    // ------------------------------------------------------------
+
+    init().catch(err => {
+      console.error('Error inicializando:', err);
+      showToast('⚠️ Error al iniciar la app');
+    });
+  </script>
+</body>
+>>>>>>> 47f9f94195dd43bf109dc5fc821f881757289089
 </html>

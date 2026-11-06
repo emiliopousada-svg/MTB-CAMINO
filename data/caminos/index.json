@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "caminos": [
     {
@@ -136,4 +137,144 @@
       "archivoPOIs": "portugues_costa-pois.json"
     }
   ]
+=======
+{
+  "caminos": [
+    {
+      "id": "frances",
+      "nombre": "Camino Francés",
+      "descripcion": "El Camino más popular y tradicional",
+      "distanciaTotalKm": 780,
+      "numEtapas": 33,
+      "dificultad": "media",
+      "desnivelPositivo": 9500,
+      "desnivelNegativo": 9200,
+      "inicio": "Saint-Jean-Pied-de-Port",
+      "final": "Santiago de Compostela",
+      "archivoTrack": "frances.gpx",
+      "archivoEtapas": "frances-etapas.json",
+      "archivoPOIs": "frances-pois.json"
+    },
+    {
+      "id": "portugues",
+      "nombre": "Camino Portugués",
+      "descripcion": "Desde Lisboa o Porto hacia Santiago",
+      "distanciaTotalKm": 620,
+      "numEtapas": 25,
+      "dificultad": "baja",
+      "desnivelPositivo": 5200,
+      "desnivelNegativo": 5100,
+      "inicio": "Lisboa",
+      "final": "Santiago de Compostela",
+      "archivoTrack": "portugues.gpx",
+      "archivoEtapas": "portugues-etapas.json",
+      "archivoPOIs": "portugues-pois.json"
+    },
+    {
+      "id": "norte",
+      "nombre": "Camino del Norte",
+      "descripcion": "Ruta costera desde Irún",
+      "distanciaTotalKm": 820,
+      "numEtapas": 34,
+      "dificultad": "alta",
+      "desnivelPositivo": 14500,
+      "desnivelNegativo": 14200,
+      "inicio": "Irún",
+      "final": "Santiago de Compostela",
+      "archivoTrack": "norte.gpx",
+      "archivoEtapas": "norte-etapas.json",
+      "archivoPOIs": "norte-pois.json"
+    },
+    {
+      "id": "primitivo",
+      "nombre": "Camino Primitivo",
+      "descripcion": "La ruta más antigua desde Oviedo",
+      "distanciaTotalKm": 320,
+      "numEtapas": 14,
+      "dificultad": "alta",
+      "desnivelPositivo": 7800,
+      "desnivelNegativo": 7500,
+      "inicio": "Oviedo",
+      "final": "Santiago de Compostela",
+      "archivoTrack": "primitivo.gpx",
+      "archivoEtapas": "primitivo-etapas.json",
+      "archivoPOIs": "primitivo-pois.json"
+    },
+    {
+      "id": "ingles",
+      "nombre": "Camino Inglés",
+      "descripcion": "Desde Ferrol o A Coruña",
+      "distanciaTotalKm": 120,
+      "numEtapas": 6,
+      "dificultad": "baja",
+      "desnivelPositivo": 2100,
+      "desnivelNegativo": 2000,
+      "inicio": "Ferrol",
+      "final": "Santiago de Compostela",
+      "archivoTrack": "ingles.gpx",
+      "archivoEtapas": "ingles-etapas.json",
+      "archivoPOIs": "ingles-pois.json"
+    },
+    {
+      "id": "plata",
+      "nombre": "Vía de la Plata",
+      "descripcion": "Desde Sevilla por el oeste",
+      "distanciaTotalKm": 960,
+      "numEtapas": 40,
+      "dificultad": "alta",
+      "desnivelPositivo": 11200,
+      "desnivelNegativo": 10800,
+      "inicio": "Sevilla",
+      "final": "Santiago de Compostela",
+      "archivoTrack": "plata.gpx",
+      "archivoEtapas": "plata-etapas.json",
+      "archivoPOIs": "plata-pois.json"
+    },
+    {
+      "id": "invierno",
+      "nombre": "Camino de Invierno",
+      "descripcion": "Ruta alternativa por el sur de Galicia",
+      "distanciaTotalKm": 260,
+      "numEtapas": 11,
+      "dificultad": "media",
+      "desnivelPositivo": 4500,
+      "desnivelNegativo": 4300,
+      "inicio": "Ponferrada",
+      "final": "Santiago de Compostela",
+      "archivoTrack": "invierno.gpx",
+      "archivoEtapas": "invierno-etapas.json",
+      "archivoPOIs": "invierno-pois.json"
+    },
+    {
+      "id": "fisterra",
+      "nombre": "Camino de Fisterra y Muxía",
+      "descripcion": "Continuación desde Santiago al fin del mundo",
+      "distanciaTotalKm": 90,
+      "numEtapas": 4,
+      "dificultad": "baja",
+      "desnivelPositivo": 1800,
+      "desnivelNegativo": 1700,
+      "inicio": "Santiago de Compostela",
+      "final": "Fisterra / Muxía",
+      "archivoTrack": "fisterra.gpx",
+      "archivoEtapas": "fisterra-etapas.json",
+      "archivoPOIs": "fisterra-pois.json"
+    },
+    {
+      "id": "portugues_costa",
+      "nombre": "Camino Portugués de la Costa",
+      "descripcion": "Variante costera del Camino Portugués",
+      "distanciaTotalKm": 280,
+      "numEtapas": 12,
+      "dificultad": "baja",
+      "desnivelPositivo": 2400,
+      "desnivelNegativo": 2300,
+      "inicio": "Porto",
+      "final": "Santiago de Compostela",
+      "archivoTrack": "portugues_costa.gpx",
+      "archivoEtapas": "portugues_costa-etapas.json",
+      "archivoPOIs": "portugues_costa-pois.json"
+    }
+  ]
+>>>>>>> 47f9f94195dd43bf109dc5fc821f881757289089
 }
