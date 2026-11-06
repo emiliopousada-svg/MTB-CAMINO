@@ -1,0 +1,86 @@
+{
+  "updated": "2026-11-06",
+  "caminos": {
+    "frances": {
+      "name": "Camino Francés",
+      "version": "2026-11-06",
+      "km": 673.9,
+      "gain": 5348,
+      "loss": 5258,
+      "stages": 13,
+      "difficulty": "Alta"
+    },
+    "portugues": {
+      "name": "Camino Portugués (Central)",
+      "version": "2026-11-06",
+      "km": 202.7,
+      "gain": 990,
+      "loss": 805,
+      "stages": 4,
+      "difficulty": "Moderada-Alta"
+    },
+    "portugues-costa": {
+      "name": "Camino Portugués de la Costa",
+      "version": "2026-11-06",
+      "km": 215.2,
+      "gain": 492,
+      "loss": 307,
+      "stages": 4,
+      "difficulty": "Moderada"
+    },
+    "norte": {
+      "name": "Camino del Norte",
+      "version": "2026-11-06",
+      "km": 613.8,
+      "gain": 3567,
+      "loss": 3317,
+      "stages": 12,
+      "difficulty": "Muy Alta"
+    },
+    "primitivo": {
+      "name": "Camino Primitivo",
+      "version": "2026-11-06",
+      "km": 249.7,
+      "gain": 3321,
+      "loss": 3291,
+      "stages": 5,
+      "difficulty": "Experto / Muy Alta"
+    },
+    "ingles": {
+      "name": "Camino Inglés",
+      "version": "2026-11-06",
+      "km": 85.4,
+      "gain": 637,
+      "loss": 382,
+      "stages": 2,
+      "difficulty": "Moderada"
+    },
+    "plata": {
+      "name": "Vía de la Plata (con Sanabrés)",
+      "version": "2026-11-06",
+      "km": 873.6,
+      "gain": 4473,
+      "loss": 4225,
+      "stages": 17,
+      "difficulty": "Alta"
+    },
+    "invierno": {
+      "name": "Camino de Invierno",
+      "version": "2026-11-06",
+      "km": 189.8,
+      "gain": 1560,
+      "loss": 1840,
+      "stages": 4,
+      "difficulty": "Alta"
+    },
+    "fisterra": {
+      "name": "Camino de Fisterra y Muxía",
+      "version": "2026-11-06",
+      "km": 94.4,
+      "gain": 963,
+      "loss": 1213,
+      "stages": 3,
+      "difficulty": "Moderada"
+    }
+  }
+}

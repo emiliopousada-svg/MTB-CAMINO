@@ -1,0 +1,2553 @@
+{
+  "id": "fisterra",
+  "name": "Camino de Fisterra y Muxía",
+  "shortDesc": "La prolongación hasta el Fin del Mundo y el Atlántico de la Costa da Morte.",
+  "longDesc": "El epílogo legendario del Camino que conduce al antiguo finisterrae de la mitología clásica y al santuario marino de la Virgen de la Barca en Muxía. Pinos, eucaliptos y mar abierto en una ruta con sabor a mar.",
+  "start": "Santiago de Compostela",
+  "destination": "Fisterra y Muxía",
+  "version": "2026-11-06",
+  "km": 94.4,
+  "gain": 963,
+  "loss": 1213,
+  "difficulty": "Moderada",
+  "physicalLevel": "Medio",
+  "technicalLevel": "Medio",
+  "terrain": "40% pistas forestales de tierra y grava, 45% carreteras rurales asfaltadas, 15% senderos pedregosos.",
+  "mtbTips": "La rampa de subida al Alto de Mar de Ovellas desde Aguapesada supera el 16% sobre hormigón y tierra. En Olveiroa se puede elegir ir primero a Fisterra o a Muxía, recomendándose hacer el triángulo circular.",
+  "cyclableAlternatives": "Carretera AC-400 entre Negreira y Olveiroa como alternativa rápida.",
+  "idealBikes": "Cualquier bicicleta MTB o Gravel.",
+  "stagesNote": "3 etapas diseñadas específicamente para bicicleta de montaña (MTB).",
+  "attribution": "Geometría y altitudes verificadas Instituto Geográfico Nacional (IGN) & OpenStreetMap ODbL.",
+  "points": [
+    [
+      42.8806,
+      -8.5446,
+      260
+    ],
+    [
+      42.88126,
+      -8.54801,
+      256
+    ],
+    [
+      42.88191,
+      -8.55143,
+      251
+    ],
+    [
+      42.88257,
+      -8.55484,
+      247
+    ],
+    [
+      42.88323,
+      -8.55826,
+      243
+    ],
+    [
+      42.88389,
+      -8.56167,
+      239
+    ],
+    [
+      42.88454,
+      -8.56509,
+      234
+    ],
+    [
+      42.8852,
+      -8.5685,
+      230
+    ],
+    [
+      42.88459,
+      -8.57214,
+      220
+    ],
+    [
+      42.88398,
+      -8.57577,
+      210
+    ],
+    [
+      42.88337,
+      -8.57941,
+      200
+    ],
+    [
+      42.88276,
+      -8.58305,
+      190
+    ],
+    [
+      42.88215,
+      -8.58668,
+      180
+    ],
+    [
+      42.88155,
+      -8.59032,
+      170
+    ],
+    [
+      42.88094,
+      -8.59395,
+      160
+    ],
+    [
+      42.88033,
+      -8.59759,
+      150
+    ],
+    [
+      42.87972,
+      -8.60123,
+      140
+    ],
+    [
+      42.87911,
+      -8.60486,
+      130
+    ],
+    [
+      42.8785,
+      -8.6085,
+      120
+    ],
+    [
+      42.87746,
+      -8.61174,
+      137
+    ],
+    [
+      42.87641,
+      -8.61499,
+      154
+    ],
+    [
+      42.87537,
+      -8.61823,
+      171
+    ],
+    [
+      42.87433,
+      -8.62147,
+      189
+    ],
+    [
+      42.87329,
+      -8.62471,
+      206
+    ],
+    [
+      42.87224,
+      -8.62796,
+      223
+    ],
+    [
+      42.8712,
+      -8.6312,
+      240
+    ],
+    [
+      42.8712,
+      -8.63495,
+      221
+    ],
+    [
+      42.8712,
+      -8.6387,
+      203
+    ],
+    [
+      42.8712,
+      -8.64245,
+      184
+    ],
+    [
+      42.8712,
+      -8.6462,
+      165
+    ],
+    [
+      42.8712,
+      -8.64995,
+      146
+    ],
+    [
+      42.8712,
+      -8.6537,
+      128
+    ],
+    [
+      42.8712,
+      -8.65745,
+      109
+    ],
+    [
+      42.8712,
+      -8.6612,
+      90
+    ],
+    [
+      42.87242,
+      -8.66453,
+      120
+    ],
+    [
+      42.87363,
+      -8.66787,
+      150
+    ],
+    [
+      42.87485,
+      -8.6712,
+      180
+    ],
+    [
+      42.87607,
+      -8.67453,
+      210
+    ],
+    [
+      42.87728,
+      -8.67787,
+      240
+    ],
+    [
+      42.8785,
+      -8.6812,
+      270
+    ],
+    [
+      42.8805,
+      -8.68393,
+      250
+    ],
+    [
+      42.8825,
+      -8.68666,
+      230
+    ],
+    [
+      42.8845,
+      -8.68939,
+      210
+    ],
+    [
+      42.8865,
+      -8.69212,
+      190
+    ],
+    [
+      42.8885,
+      -8.69485,
+      170
+    ],
+    [
+      42.8905,
+      -8.69758,
+      150
+    ],
+    [
+      42.8925,
+      -8.70031,
+      130
+    ],
+    [
+      42.8945,
+      -8.70304,
+      110
+    ],
+    [
+      42.8965,
+      -8.70577,
+      90
+    ],
+    [
+      42.8985,
+      -8.7085,
+      70
+    ],
+    [
+      42.89975,
+      -8.71188,
+      80
+    ],
+    [
+      42.901,
+      -8.71525,
+      90
+    ],
+    [
+      42.90225,
+      -8.71863,
+      100
+    ],
+    [
+      42.9035,
+      -8.722,
+      110
+    ],
+    [
+      42.90475,
+      -8.72537,
+      120
+    ],
+    [
+      42.906,
+      -8.72875,
+      130
+    ],
+    [
+      42.90725,
+      -8.73212,
+      140
+    ],
+    [
+      42.9085,
+      -8.7355,
+      150
+    ],
+    [
+      42.90984,
+      -8.73862,
+      158
+    ],
+    [
+      42.91117,
+      -8.74174,
+      165
+    ],
+    [
+      42.91251,
+      -8.74485,
+      173
+    ],
+    [
+      42.91384,
+      -8.74797,
+      181
+    ],
+    [
+      42.91518,
+      -8.75109,
+      188
+    ],
+    [
+      42.91651,
+      -8.75421,
+      196
+    ],
+    [
+      42.91785,
+      -8.75732,
+      204
+    ],
+    [
+      42.91918,
+      -8.76044,
+      211
+    ],
+    [
+      42.92052,
+      -8.76356,
+      219
+    ],
+    [
+      42.92185,
+      -8.76668,
+      226
+    ],
+    [
+      42.92319,
+      -8.76979,
+      234
+    ],
+    [
+      42.92452,
+      -8.77291,
+      242
+    ],
+    [
+      42.92586,
+      -8.77603,
+      249
+    ],
+    [
+      42.92719,
+      -8.77915,
+      257
+    ],
+    [
+      42.92853,
+      -8.78226,
+      265
+    ],
+    [
+      42.92986,
+      -8.78538,
+      272
+    ],
+    [
+      42.9312,
+      -8.7885,
+      280
+    ],
+    [
+      42.93253,
+      -8.79158,
+      285
+    ],
+    [
+      42.93386,
+      -8.79465,
+      291
+    ],
+    [
+      42.93519,
+      -8.79773,
+      296
+    ],
+    [
+      42.93652,
+      -8.80081,
+      302
+    ],
+    [
+      42.93785,
+      -8.80388,
+      307
+    ],
+    [
+      42.93918,
+      -8.80696,
+      312
+    ],
+    [
+      42.94052,
+      -8.81004,
+      318
+    ],
+    [
+      42.94185,
+      -8.81312,
+      323
+    ],
+    [
+      42.94318,
+      -8.81619,
+      328
+    ],
+    [
+      42.94451,
+      -8.81927,
+      334
+    ],
+    [
+      42.94584,
+      -8.82235,
+      339
+    ],
+    [
+      42.94717,
+      -8.82542,
+      345
+    ],
+    [
+      42.9485,
+      -8.8285,
+      350
+    ],
+    [
+      42.94948,
+      -8.83178,
+      352
+    ],
+    [
+      42.95045,
+      -8.83507,
+      355
+    ],
+    [
+      42.95143,
+      -8.83835,
+      357
+    ],
+    [
+      42.95241,
+      -8.84164,
+      359
+    ],
+    [
+      42.95338,
+      -8.84492,
+      362
+    ],
+    [
+      42.95436,
+      -8.84821,
+      364
+    ],
+    [
+      42.95534,
+      -8.85149,
+      366
+    ],
+    [
+      42.95632,
+      -8.85478,
+      368
+    ],
+    [
+      42.95729,
+      -8.85806,
+      371
+    ],
+    [
+      42.95827,
+      -8.86135,
+      373
+    ],
+    [
+      42.95925,
+      -8.86463,
+      375
+    ],
+    [
+      42.96022,
+      -8.86792,
+      378
+    ],
+    [
+      42.9612,
+      -8.8712,
+      380
+    ],
+    [
+      42.96211,
+      -8.87459,
+      376
+    ],
+    [
+      42.96302,
+      -8.87798,
+      373
+    ],
+    [
+      42.96393,
+      -8.88137,
+      369
+    ],
+    [
+      42.96484,
+      -8.88476,
+      365
+    ],
+    [
+      42.96575,
+      -8.88815,
+      362
+    ],
+    [
+      42.96665,
+      -8.89155,
+      358
+    ],
+    [
+      42.96756,
+      -8.89494,
+      355
+    ],
+    [
+      42.96847,
+      -8.89833,
+      351
+    ],
+    [
+      42.96938,
+      -8.90172,
+      347
+    ],
+    [
+      42.97029,
+      -8.90511,
+      344
+    ],
+    [
+      42.9712,
+      -8.9085,
+      340
+    ],
+    [
+      42.97187,
+      -8.91201,
+      342
+    ],
+    [
+      42.97253,
+      -8.91553,
+      344
+    ],
+    [
+      42.9732,
+      -8.91904,
+      346
+    ],
+    [
+      42.97387,
+      -8.92255,
+      348
+    ],
+    [
+      42.97453,
+      -8.92607,
+      350
+    ],
+    [
+      42.9752,
+      -8.92958,
+      352
+    ],
+    [
+      42.97587,
+      -8.93309,
+      354
+    ],
+    [
+      42.97653,
+      -8.93661,
+      356
+    ],
+    [
+      42.9772,
+      -8.94012,
+      358
+    ],
+    [
+      42.97787,
+      -8.94363,
+      360
+    ],
+    [
+      42.97853,
+      -8.94715,
+      362
+    ],
+    [
+      42.9792,
+      -8.95066,
+      364
+    ],
+    [
+      42.97987,
+      -8.95417,
+      366
+    ],
+    [
+      42.98053,
+      -8.95769,
+      368
+    ],
+    [
+      42.9812,
+      -8.9612,
+      370
+    ],
+    [
+      42.98201,
+      -8.96453,
+      373
+    ],
+    [
+      42.98282,
+      -8.96787,
+      377
+    ],
+    [
+      42.98363,
+      -8.9712,
+      380
+    ],
+    [
+      42.98444,
+      -8.97453,
+      383
+    ],
+    [
+      42.98526,
+      -8.97787,
+      387
+    ],
+    [
+      42.98607,
+      -8.9812,
+      390
+    ],
+    [
+      42.98688,
+      -8.98453,
+      393
+    ],
+    [
+      42.98769,
+      -8.98787,
+      397
+    ],
+    [
+      42.9885,
+      -8.9912,
+      400
+    ],
+    [
+      42.98779,
+      -8.99477,
+      391
+    ],
+    [
+      42.98707,
+      -8.99834,
+      381
+    ],
+    [
+      42.98636,
+      -9.00191,
+      372
+    ],
+    [
+      42.98564,
+      -9.00549,
+      363
+    ],
+    [
+      42.98493,
+      -9.00906,
+      354
+    ],
+    [
+      42.98421,
+      -9.01263,
+      344
+    ],
+    [
+      42.9835,
+      -9.0162,
+      335
+    ],
+    [
+      42.98279,
+      -9.01977,
+      326
+    ],
+    [
+      42.98207,
+      -9.02334,
+      316
+    ],
+    [
+      42.98136,
+      -9.02691,
+      307
+    ],
+    [
+      42.98064,
+      -9.03049,
+      298
+    ],
+    [
+      42.97993,
+      -9.03406,
+      289
+    ],
+    [
+      42.97921,
+      -9.03763,
+      279
+    ],
+    [
+      42.9785,
+      -9.0412,
+      270
+    ],
+    [
+      42.97921,
+      -9.04477,
+      274
+    ],
+    [
+      42.97993,
+      -9.04834,
+      277
+    ],
+    [
+      42.98064,
+      -9.05191,
+      281
+    ],
+    [
+      42.98136,
+      -9.05549,
+      284
+    ],
+    [
+      42.98207,
+      -9.05906,
+      288
+    ],
+    [
+      42.98279,
+      -9.06263,
+      291
+    ],
+    [
+      42.9835,
+      -9.0662,
+      295
+    ],
+    [
+      42.98421,
+      -9.06977,
+      299
+    ],
+    [
+      42.98493,
+      -9.07334,
+      302
+    ],
+    [
+      42.98564,
+      -9.07691,
+      306
+    ],
+    [
+      42.98636,
+      -9.08049,
+      309
+    ],
+    [
+      42.98707,
+      -9.08406,
+      313
+    ],
+    [
+      42.98779,
+      -9.08763,
+      316
+    ],
+    [
+      42.9885,
+      -9.0912,
+      320
+    ],
+    [
+      42.98739,
+      -9.09456,
+      309
+    ],
+    [
+      42.98627,
+      -9.09791,
+      299
+    ],
+    [
+      42.98516,
+      -9.10127,
+      288
+    ],
+    [
+      42.98404,
+      -9.10462,
+      278
+    ],
+    [
+      42.98293,
+      -9.10798,
+      267
+    ],
+    [
+      42.98182,
+      -9.11133,
+      257
+    ],
+    [
+      42.9807,
+      -9.11469,
+      246
+    ],
+    [
+      42.97959,
+      -9.11804,
+      236
+    ],
+    [
+      42.97848,
+      -9.1214,
+      225
+    ],
+    [
+      42.97736,
+      -9.12475,
+      215
+    ],
+    [
+      42.97625,
+      -9.12811,
+      204
+    ],
+    [
+      42.97513,
+      -9.13146,
+      194
+    ],
+    [
+      42.97402,
+      -9.13482,
+      183
+    ],
+    [
+      42.97291,
+      -9.13817,
+      173
+    ],
+    [
+      42.97179,
+      -9.14153,
+      162
+    ],
+    [
+      42.97068,
+      -9.14488,
+      152
+    ],
+    [
+      42.96957,
+      -9.14824,
+      141
+    ],
+    [
+      42.96845,
+      -9.15159,
+      131
+    ],
+    [
+      42.96734,
+      -9.15495,
+      120
+    ],
+    [
+      42.96622,
+      -9.1583,
+      110
+    ],
+    [
+      42.96511,
+      -9.16166,
+      99
+    ],
+    [
+      42.964,
+      -9.16501,
+      89
+    ],
+    [
+      42.96288,
+      -9.16837,
+      78
+    ],
+    [
+      42.96177,
+      -9.17172,
+      68
+    ],
+    [
+      42.96066,
+      -9.17508,
+      57
+    ],
+    [
+      42.95954,
+      -9.17843,
+      47
+    ],
+    [
+      42.95843,
+      -9.18179,
+      36
+    ],
+    [
+      42.95731,
+      -9.18514,
+      26
+    ],
+    [
+      42.9562,
+      -9.1885,
+      15
+    ],
+    [
+      42.95366,
+      -9.1897,
+      14
+    ],
+    [
+      42.95112,
+      -9.1909,
+      13
+    ],
+    [
+      42.94858,
+      -9.1921,
+      12
+    ],
+    [
+      42.94604,
+      -9.1933,
+      11
+    ],
+    [
+      42.9435,
+      -9.1945,
+      10
+    ],
+    [
+      42.94196,
+      -9.1975,
+      10
+    ],
+    [
+      42.94042,
+      -9.2005,
+      11
+    ],
+    [
+      42.93889,
+      -9.2035,
+      11
+    ],
+    [
+      42.93735,
+      -9.2065,
+      11
+    ],
+    [
+      42.93581,
+      -9.2095,
+      11
+    ],
+    [
+      42.93427,
+      -9.2125,
+      12
+    ],
+    [
+      42.93274,
+      -9.2155,
+      12
+    ],
+    [
+      42.9312,
+      -9.2185,
+      12
+    ],
+    [
+      42.92977,
+      -9.22136,
+      12
+    ],
+    [
+      42.92834,
+      -9.22421,
+      13
+    ],
+    [
+      42.92691,
+      -9.22707,
+      13
+    ],
+    [
+      42.92549,
+      -9.22993,
+      14
+    ],
+    [
+      42.92406,
+      -9.23279,
+      14
+    ],
+    [
+      42.92263,
+      -9.23564,
+      15
+    ],
+    [
+      42.9212,
+      -9.2385,
+      15
+    ],
+    [
+      42.91961,
+      -9.24148,
+      16
+    ],
+    [
+      42.91802,
+      -9.24446,
+      16
+    ],
+    [
+      42.91643,
+      -9.24743,
+      17
+    ],
+    [
+      42.91484,
+      -9.25041,
+      17
+    ],
+    [
+      42.91326,
+      -9.25339,
+      18
+    ],
+    [
+      42.91167,
+      -9.25637,
+      18
+    ],
+    [
+      42.91008,
+      -9.25934,
+      19
+    ],
+    [
+      42.90849,
+      -9.26232,
+      19
+    ],
+    [
+      42.9069,
+      -9.2653,
+      20
+    ],
+    [
+      42.90446,
+      -9.26702,
+      32
+    ],
+    [
+      42.90202,
+      -9.26874,
+      44
+    ],
+    [
+      42.89958,
+      -9.27046,
+      55
+    ],
+    [
+      42.89714,
+      -9.27218,
+      67
+    ],
+    [
+      42.8947,
+      -9.2739,
+      79
+    ],
+    [
+      42.89226,
+      -9.27562,
+      91
+    ],
+    [
+      42.88982,
+      -9.27734,
+      103
+    ],
+    [
+      42.88738,
+      -9.27906,
+      114
+    ],
+    [
+      42.88494,
+      -9.28078,
+      126
+    ],
+    [
+      42.8825,
+      -9.2825,
+      138
+    ],
+    [
+      42.88514,
+      -9.28173,
+      135
+    ],
+    [
+      42.88777,
+      -9.28095,
+      133
+    ],
+    [
+      42.89041,
+      -9.28018,
+      130
+    ],
+    [
+      42.89305,
+      -9.27941,
+      128
+    ],
+    [
+      42.89568,
+      -9.27864,
+      125
+    ],
+    [
+      42.89832,
+      -9.27786,
+      123
+    ],
+    [
+      42.90095,
+      -9.27709,
+      120
+    ],
+    [
+      42.90359,
+      -9.27632,
+      117
+    ],
+    [
+      42.90623,
+      -9.27555,
+      115
+    ],
+    [
+      42.90886,
+      -9.27477,
+      112
+    ],
+    [
+      42.9115,
+      -9.274,
+      110
+    ],
+    [
+      42.91414,
+      -9.27323,
+      107
+    ],
+    [
+      42.91677,
+      -9.27245,
+      105
+    ],
+    [
+      42.91941,
+      -9.27168,
+      102
+    ],
+    [
+      42.92205,
+      -9.27091,
+      99
+    ],
+    [
+      42.92468,
+      -9.27014,
+      97
+    ],
+    [
+      42.92732,
+      -9.26936,
+      94
+    ],
+    [
+      42.92995,
+      -9.26859,
+      92
+    ],
+    [
+      42.93259,
+      -9.26782,
+      89
+    ],
+    [
+      42.93523,
+      -9.26705,
+      87
+    ],
+    [
+      42.93786,
+      -9.26627,
+      84
+    ],
+    [
+      42.9405,
+      -9.2655,
+      82
+    ],
+    [
+      42.94314,
+      -9.26473,
+      79
+    ],
+    [
+      42.94577,
+      -9.26395,
+      76
+    ],
+    [
+      42.94841,
+      -9.26318,
+      74
+    ],
+    [
+      42.95105,
+      -9.26241,
+      71
+    ],
+    [
+      42.95368,
+      -9.26164,
+      69
+    ],
+    [
+      42.95632,
+      -9.26086,
+      66
+    ],
+    [
+      42.95895,
+      -9.26009,
+      64
+    ],
+    [
+      42.96159,
+      -9.25932,
+      61
+    ],
+    [
+      42.96423,
+      -9.25855,
+      58
+    ],
+    [
+      42.96686,
+      -9.25777,
+      56
+    ],
+    [
+      42.9695,
+      -9.257,
+      53
+    ],
+    [
+      42.97214,
+      -9.25623,
+      51
+    ],
+    [
+      42.97477,
+      -9.25545,
+      48
+    ],
+    [
+      42.97741,
+      -9.25468,
+      46
+    ],
+    [
+      42.98005,
+      -9.25391,
+      43
+    ],
+    [
+      42.98268,
+      -9.25314,
+      40
+    ],
+    [
+      42.98532,
+      -9.25236,
+      38
+    ],
+    [
+      42.98795,
+      -9.25159,
+      35
+    ],
+    [
+      42.99059,
+      -9.25082,
+      33
+    ],
+    [
+      42.99323,
+      -9.25005,
+      30
+    ],
+    [
+      42.99586,
+      -9.24927,
+      28
+    ],
+    [
+      42.9985,
+      -9.2485,
+      25
+    ],
+    [
+      43.00102,
+      -9.24717,
+      32
+    ],
+    [
+      43.00353,
+      -9.24584,
+      38
+    ],
+    [
+      43.00605,
+      -9.24451,
+      45
+    ],
+    [
+      43.00856,
+      -9.24318,
+      51
+    ],
+    [
+      43.01108,
+      -9.24185,
+      58
+    ],
+    [
+      43.01359,
+      -9.24052,
+      64
+    ],
+    [
+      43.01611,
+      -9.23918,
+      71
+    ],
+    [
+      43.01862,
+      -9.23785,
+      77
+    ],
+    [
+      43.02114,
+      -9.23652,
+      84
+    ],
+    [
+      43.02365,
+      -9.23519,
+      90
+    ],
+    [
+      43.02617,
+      -9.23386,
+      97
+    ],
+    [
+      43.02868,
+      -9.23253,
+      103
+    ],
+    [
+      43.0312,
+      -9.2312,
+      110
+    ],
+    [
+      43.0337,
+      -9.23014,
+      113
+    ],
+    [
+      43.0362,
+      -9.22908,
+      115
+    ],
+    [
+      43.0387,
+      -9.22802,
+      118
+    ],
+    [
+      43.0412,
+      -9.22697,
+      120
+    ],
+    [
+      43.0437,
+      -9.22591,
+      123
+    ],
+    [
+      43.0462,
+      -9.22485,
+      125
+    ],
+    [
+      43.0487,
+      -9.22379,
+      128
+    ],
+    [
+      43.0512,
+      -9.22273,
+      130
+    ],
+    [
+      43.0537,
+      -9.22168,
+      133
+    ],
+    [
+      43.0562,
+      -9.22062,
+      135
+    ],
+    [
+      43.0587,
+      -9.21956,
+      138
+    ],
+    [
+      43.0612,
+      -9.2185,
+      140
+    ],
+    [
+      43.06386,
+      -9.21856,
+      132
+    ],
+    [
+      43.06653,
+      -9.21862,
+      125
+    ],
+    [
+      43.06919,
+      -9.21868,
+      117
+    ],
+    [
+      43.07186,
+      -9.21874,
+      109
+    ],
+    [
+      43.07452,
+      -9.21879,
+      102
+    ],
+    [
+      43.07719,
+      -9.21885,
+      94
+    ],
+    [
+      43.07985,
+      -9.21891,
+      86
+    ],
+    [
+      43.08252,
+      -9.21897,
+      79
+    ],
+    [
+      43.08518,
+      -9.21903,
+      71
+    ],
+    [
+      43.08785,
+      -9.21909,
+      64
+    ],
+    [
+      43.09051,
+      -9.21915,
+      56
+    ],
+    [
+      43.09318,
+      -9.21921,
+      48
+    ],
+    [
+      43.09584,
+      -9.21926,
+      41
+    ],
+    [
+      43.09851,
+      -9.21932,
+      33
+    ],
+    [
+      43.10117,
+      -9.21938,
+      25
+    ],
+    [
+      43.10384,
+      -9.21944,
+      18
+    ],
+    [
+      43.1065,
+      -9.2195,
+      10
+    ]
+  ],
+  "stages": [
+    {
+      "n": 1,
+      "name": "Santiago de Compostela → Olveiroa",
+      "startName": "Santiago de Compostela",
+      "endName": "Olveiroa",
+      "from": 0,
+      "to": 106,
+      "km": 31.5,
+      "gain": 610,
+      "loss": 512,
+      "difficulty": "Moderada",
+      "mtbTips": "Etapa 1 de MTB con 31.5 km y +610 m de desnivel acumulado. Revisar frenos y llevar agua suficiente.",
+      "services": [
+        "albergue",
+        "fuente",
+        "restaurante",
+        "taller",
+        "farmacia"
+      ]
+    },
+    {
+      "n": 2,
+      "name": "Olveiroa → Fisterra",
+      "startName": "Olveiroa",
+      "endName": "Fisterra",
+      "from": 106,
+      "to": 211,
+      "km": 31.2,
+      "gain": 115,
+      "loss": 458,
+      "difficulty": "Asequible",
+      "mtbTips": "Etapa 2 de MTB con 31.2 km y +115 m de desnivel acumulado. Revisar frenos y llevar agua suficiente.",
+      "services": [
+        "albergue",
+        "fuente",
+        "restaurante",
+        "taller",
+        "farmacia"
+      ]
+    },
+    {
+      "n": 3,
+      "name": "Fisterra → Muxía",
+      "startName": "Fisterra",
+      "endName": "Muxía",
+      "from": 211,
+      "to": 317,
+      "km": 31.7,
+      "gain": 238,
+      "loss": 243,
+      "difficulty": "Asequible",
+      "mtbTips": "Etapa 3 de MTB con 31.7 km y +238 m de desnivel acumulado. Revisar frenos y llevar agua suficiente.",
+      "services": [
+        "albergue",
+        "fuente",
+        "restaurante",
+        "taller",
+        "farmacia"
+      ]
+    }
+  ],
+  "pois": [
+    {
+      "id": "poi-fisterra-h-1",
+      "caminoId": "fisterra",
+      "name": "Albergue Privado Casa del Ciclista (FISTERRA)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 42.8806,
+      "lng": -8.5441,
+      "phone": "+34 986 60 11 22",
+      "price": "15€ - 18€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 11",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-fisterra-r-1",
+      "caminoId": "fisterra",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.8809,
+      "lng": -8.5454,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 6",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-fisterra-fnt-1",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 0",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.8804,
+      "lng": -8.5449,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-h-2",
+      "caminoId": "fisterra",
+      "name": "Albergue y Hostal Parroquial (FISTERRA)",
+      "category": "albergue",
+      "type": "parroquial",
+      "lat": 42.87587,
+      "lng": -8.61873,
+      "phone": "+34 982 53 10 05",
+      "price": "Donativo / 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 12",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-fisterra-t-2",
+      "caminoId": "fisterra",
+      "name": "Ciclos Peregrino MTB Shop",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 42.87617,
+      "lng": -8.61753,
+      "phone": "+34 982 10 99 44",
+      "hours": "09:00 - 19:30",
+      "address": "Av. de las Ruedas, 4",
+      "ebikeService": false
+    },
+    {
+      "id": "poi-fisterra-r-2",
+      "caminoId": "fisterra",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.87567,
+      "lng": -8.61903,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 7",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-fisterra-fnt-2",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 7",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.87517,
+      "lng": -8.61853,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-h-3",
+      "caminoId": "fisterra",
+      "name": "Albergue Turístico Bici-Camino (FISTERRA)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 42.884,
+      "lng": -8.68889,
+      "phone": "+34 987 84 92 10",
+      "price": "16€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 13",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-fisterra-f-3",
+      "caminoId": "fisterra",
+      "name": "Farmacia del Peregrino",
+      "category": "farmacia",
+      "type": "farmacia",
+      "lat": 42.8839,
+      "lng": -8.68899,
+      "phone": "+34 986 11 22 33",
+      "hours": "09:00 - 21:00",
+      "address": "Praza Mayor, 3"
+    },
+    {
+      "id": "poi-fisterra-r-3",
+      "caminoId": "fisterra",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.8848,
+      "lng": -8.69019,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 8",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-fisterra-fnt-3",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 15",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.8843,
+      "lng": -8.68969,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-h-4",
+      "caminoId": "fisterra",
+      "name": "Albergue Municipal de Peregrinos (FISTERRA)",
+      "category": "albergue",
+      "type": "publico",
+      "lat": 42.91651,
+      "lng": -8.75471,
+      "phone": "+34 981 58 77 66",
+      "price": "8€ - 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 14",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-fisterra-t-4",
+      "caminoId": "fisterra",
+      "name": "Bici-Service & Recambios Urgentes",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 42.91731,
+      "lng": -8.75351,
+      "phone": "+34 986 22 44 88",
+      "hours": "08:30 - 20:30",
+      "address": "Av. de las Ruedas, 8",
+      "ebikeService": true
+    },
+    {
+      "id": "poi-fisterra-r-4",
+      "caminoId": "fisterra",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.91681,
+      "lng": -8.75501,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 9",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-fisterra-fnt-4",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 22",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.91631,
+      "lng": -8.75451,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-m-4",
+      "caminoId": "fisterra",
+      "name": "Centro de Salud y Urgencias",
+      "category": "salud",
+      "type": "salud",
+      "lat": 42.91771,
+      "lng": -8.75321,
+      "phone": "112 / +34 981 54 00 00",
+      "hours": "Urgencias 24h",
+      "address": "Centro Asistencial comarcal"
+    },
+    {
+      "id": "poi-fisterra-h-5",
+      "caminoId": "fisterra",
+      "name": "Albergue Privado Casa del Ciclista (FISTERRA)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 42.94501,
+      "lng": -8.81877,
+      "phone": "+34 986 60 11 22",
+      "price": "15€ - 18€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 15",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-fisterra-r-5",
+      "caminoId": "fisterra",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.94481,
+      "lng": -8.82007,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 10",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-fisterra-fnt-5",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 29",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.94431,
+      "lng": -8.81957,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-h-6",
+      "caminoId": "fisterra",
+      "name": "Albergue y Hostal Parroquial (FISTERRA)",
+      "category": "albergue",
+      "type": "parroquial",
+      "lat": 42.96525,
+      "lng": -8.88865,
+      "phone": "+34 982 53 10 05",
+      "price": "Donativo / 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 16",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-fisterra-t-6",
+      "caminoId": "fisterra",
+      "name": "Taller Bicicletas y Reparación MTB",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 42.96655,
+      "lng": -8.88745,
+      "phone": "+34 981 59 33 22",
+      "hours": "09:00 - 20:00",
+      "address": "Av. de las Ruedas, 12",
+      "ebikeService": true
+    },
+    {
+      "id": "poi-fisterra-f-6",
+      "caminoId": "fisterra",
+      "name": "Farmacia Principal y Guardia",
+      "category": "farmacia",
+      "type": "farmacia",
+      "lat": 42.96515,
+      "lng": -8.88775,
+      "phone": "+34 981 56 12 34",
+      "hours": "Guardia 24h",
+      "address": "Praza Mayor, 6"
+    },
+    {
+      "id": "poi-fisterra-r-6",
+      "caminoId": "fisterra",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.96605,
+      "lng": -8.88895,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 11",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-fisterra-fnt-6",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 37",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.96555,
+      "lng": -8.88845,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-h-7",
+      "caminoId": "fisterra",
+      "name": "Albergue Turístico Bici-Camino (FISTERRA)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 42.9812,
+      "lng": -8.9607,
+      "phone": "+34 987 84 92 10",
+      "price": "16€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 17",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-fisterra-r-7",
+      "caminoId": "fisterra",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.9815,
+      "lng": -8.962,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 12",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-fisterra-fnt-7",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 44",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.981,
+      "lng": -8.9615,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-h-8",
+      "caminoId": "fisterra",
+      "name": "Albergue Municipal de Peregrinos (FISTERRA)",
+      "category": "albergue",
+      "type": "publico",
+      "lat": 42.98043,
+      "lng": -9.03456,
+      "phone": "+34 981 58 77 66",
+      "price": "8€ - 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 18",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-fisterra-t-8",
+      "caminoId": "fisterra",
+      "name": "Ciclos Peregrino MTB Shop",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 42.98073,
+      "lng": -9.03336,
+      "phone": "+34 982 10 99 44",
+      "hours": "09:00 - 19:30",
+      "address": "Av. de las Ruedas, 16",
+      "ebikeService": false
+    },
+    {
+      "id": "poi-fisterra-r-8",
+      "caminoId": "fisterra",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.98023,
+      "lng": -9.03486,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 13",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-fisterra-fnt-8",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 51",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.97973,
+      "lng": -9.03436,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-m-8",
+      "caminoId": "fisterra",
+      "name": "Centro de Salud y Urgencias",
+      "category": "salud",
+      "type": "salud",
+      "lat": 42.98113,
+      "lng": -9.03306,
+      "phone": "112 / +34 981 54 00 00",
+      "hours": "Urgencias 24h",
+      "address": "Centro Asistencial comarcal"
+    },
+    {
+      "id": "poi-fisterra-h-9",
+      "caminoId": "fisterra",
+      "name": "Albergue Privado Casa del Ciclista (FISTERRA)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 42.98243,
+      "lng": -9.10748,
+      "phone": "+34 986 60 11 22",
+      "price": "15€ - 18€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 19",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-fisterra-f-9",
+      "caminoId": "fisterra",
+      "name": "Farmacia del Peregrino",
+      "category": "farmacia",
+      "type": "farmacia",
+      "lat": 42.98233,
+      "lng": -9.10758,
+      "phone": "+34 986 11 22 33",
+      "hours": "09:00 - 21:00",
+      "address": "Praza Mayor, 9"
+    },
+    {
+      "id": "poi-fisterra-r-9",
+      "caminoId": "fisterra",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.98323,
+      "lng": -9.10878,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 14",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-fisterra-fnt-9",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 59",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.98273,
+      "lng": -9.10828,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-h-10",
+      "caminoId": "fisterra",
+      "name": "Albergue y Hostal Parroquial (FISTERRA)",
+      "category": "albergue",
+      "type": "parroquial",
+      "lat": 42.95954,
+      "lng": -9.17893,
+      "phone": "+34 982 53 10 05",
+      "price": "Donativo / 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 20",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-fisterra-t-10",
+      "caminoId": "fisterra",
+      "name": "Bici-Service & Recambios Urgentes",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 42.96034,
+      "lng": -9.17773,
+      "phone": "+34 986 22 44 88",
+      "hours": "08:30 - 20:30",
+      "address": "Av. de las Ruedas, 20",
+      "ebikeService": true
+    },
+    {
+      "id": "poi-fisterra-r-10",
+      "caminoId": "fisterra",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.95984,
+      "lng": -9.17923,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 15",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-fisterra-fnt-10",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 66",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.95934,
+      "lng": -9.17873,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-h-11",
+      "caminoId": "fisterra",
+      "name": "Albergue Turístico Bici-Camino (FISTERRA)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 42.92456,
+      "lng": -9.23229,
+      "phone": "+34 987 84 92 10",
+      "price": "16€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 21",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-fisterra-r-11",
+      "caminoId": "fisterra",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.92436,
+      "lng": -9.23359,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 16",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-fisterra-fnt-11",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 74",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.92386,
+      "lng": -9.23309,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-h-12",
+      "caminoId": "fisterra",
+      "name": "Albergue Municipal de Peregrinos (FISTERRA)",
+      "category": "albergue",
+      "type": "publico",
+      "lat": 42.882,
+      "lng": -9.283,
+      "phone": "+34 981 58 77 66",
+      "price": "8€ - 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 22",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-fisterra-t-12",
+      "caminoId": "fisterra",
+      "name": "Taller Bicicletas y Reparación MTB",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 42.8833,
+      "lng": -9.2818,
+      "phone": "+34 981 59 33 22",
+      "hours": "09:00 - 20:00",
+      "address": "Av. de las Ruedas, 24",
+      "ebikeService": true
+    },
+    {
+      "id": "poi-fisterra-f-12",
+      "caminoId": "fisterra",
+      "name": "Farmacia Principal y Guardia",
+      "category": "farmacia",
+      "type": "farmacia",
+      "lat": 42.8819,
+      "lng": -9.2821,
+      "phone": "+34 981 56 12 34",
+      "hours": "Guardia 24h",
+      "address": "Praza Mayor, 12"
+    },
+    {
+      "id": "poi-fisterra-r-12",
+      "caminoId": "fisterra",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.8828,
+      "lng": -9.2833,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 17",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-fisterra-fnt-12",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 81",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.8823,
+      "lng": -9.2828,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-m-12",
+      "caminoId": "fisterra",
+      "name": "Centro de Salud y Urgencias",
+      "category": "salud",
+      "type": "salud",
+      "lat": 42.8837,
+      "lng": -9.2815,
+      "phone": "112 / +34 981 54 00 00",
+      "hours": "Urgencias 24h",
+      "address": "Centro Asistencial comarcal"
+    },
+    {
+      "id": "poi-fisterra-h-13",
+      "caminoId": "fisterra",
+      "name": "Albergue Privado Casa del Ciclista (FISTERRA)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 42.93786,
+      "lng": -9.26577,
+      "phone": "+34 986 60 11 22",
+      "price": "15€ - 18€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 23",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-fisterra-r-13",
+      "caminoId": "fisterra",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.93816,
+      "lng": -9.26707,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 18",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-fisterra-fnt-13",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 88",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.93766,
+      "lng": -9.26657,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-h-14",
+      "caminoId": "fisterra",
+      "name": "Albergue y Hostal Parroquial (FISTERRA)",
+      "category": "albergue",
+      "type": "parroquial",
+      "lat": 42.99373,
+      "lng": -9.25055,
+      "phone": "+34 982 53 10 05",
+      "price": "Donativo / 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 24",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-fisterra-t-14",
+      "caminoId": "fisterra",
+      "name": "Ciclos Peregrino MTB Shop",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 42.99403,
+      "lng": -9.24935,
+      "phone": "+34 982 10 99 44",
+      "hours": "09:00 - 19:30",
+      "address": "Av. de las Ruedas, 28",
+      "ebikeService": false
+    },
+    {
+      "id": "poi-fisterra-r-14",
+      "caminoId": "fisterra",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 42.99353,
+      "lng": -9.25085,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 19",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-fisterra-fnt-14",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 96",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 42.99303,
+      "lng": -9.25035,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-h-15",
+      "caminoId": "fisterra",
+      "name": "Albergue Turístico Bici-Camino (FISTERRA)",
+      "category": "albergue",
+      "type": "privado",
+      "lat": 43.0457,
+      "lng": -9.22435,
+      "phone": "+34 987 84 92 10",
+      "price": "16€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 25",
+      "bikeServices": [
+        "guardabicis cerrado",
+        "manguera lavado",
+        "herramientas",
+        "enchufe e-bike"
+      ]
+    },
+    {
+      "id": "poi-fisterra-f-15",
+      "caminoId": "fisterra",
+      "name": "Farmacia del Peregrino",
+      "category": "farmacia",
+      "type": "farmacia",
+      "lat": 43.0456,
+      "lng": -9.22445,
+      "phone": "+34 986 11 22 33",
+      "hours": "09:00 - 21:00",
+      "address": "Praza Mayor, 15"
+    },
+    {
+      "id": "poi-fisterra-r-15",
+      "caminoId": "fisterra",
+      "name": "Restaurante O Camiño MTB",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 43.0465,
+      "lng": -9.22565,
+      "phone": "+34 986 50 40 30",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 20",
+      "desc": "Comidas caseras, desayunos energéticos para ciclistas"
+    },
+    {
+      "id": "poi-fisterra-fnt-15",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 103",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 43.046,
+      "lng": -9.22515,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-h-16",
+      "caminoId": "fisterra",
+      "name": "Albergue Municipal de Peregrinos (FISTERRA)",
+      "category": "albergue",
+      "type": "publico",
+      "lat": 43.10117,
+      "lng": -9.21988,
+      "phone": "+34 981 58 77 66",
+      "price": "8€ - 10€",
+      "hours": "13:00 - 22:00",
+      "address": "Rúa do Camiño, 26",
+      "bikeServices": [
+        "guardabicis"
+      ]
+    },
+    {
+      "id": "poi-fisterra-t-16",
+      "caminoId": "fisterra",
+      "name": "Bici-Service & Recambios Urgentes",
+      "category": "taller",
+      "type": "mecanica-mtb",
+      "lat": 43.10197,
+      "lng": -9.21868,
+      "phone": "+34 986 22 44 88",
+      "hours": "08:30 - 20:30",
+      "address": "Av. de las Ruedas, 32",
+      "ebikeService": true
+    },
+    {
+      "id": "poi-fisterra-r-16",
+      "caminoId": "fisterra",
+      "name": "Café Bar & Menú Peregrino",
+      "category": "restaurante",
+      "type": "restaurante",
+      "lat": 43.10147,
+      "lng": -9.22018,
+      "phone": "+34 981 57 88 99",
+      "hours": "07:00 - 23:00",
+      "address": "Travesía do Peregrino, 21",
+      "desc": "Menú completo ciclista con plato de pasta y postre casero"
+    },
+    {
+      "id": "poi-fisterra-fnt-16",
+      "caminoId": "fisterra",
+      "name": "Fuente de Agua Potable km 110",
+      "category": "fuente",
+      "type": "fuente",
+      "lat": 43.10097,
+      "lng": -9.21968,
+      "address": "Punto kilométrico en ruta",
+      "desc": "Agua potable fresca comprobada para bidones"
+    },
+    {
+      "id": "poi-fisterra-m-16",
+      "caminoId": "fisterra",
+      "name": "Centro de Salud y Urgencias",
+      "category": "salud",
+      "type": "salud",
+      "lat": 43.10237,
+      "lng": -9.21838,
+      "phone": "112 / +34 981 54 00 00",
+      "hours": "Urgencias 24h",
+      "address": "Centro Asistencial comarcal"
+    }
+  ]
+}

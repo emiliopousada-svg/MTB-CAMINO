@@ -1,0 +1,27 @@
+# Dependencias y recursos web generados
+node_modules/
+www/
+.tmp-osm/
+.vscode/
+_backup_original/
+_carpeta_cambios/
+
+# Resultados de compilación Android
+android/.gradle/
+android/build/
+android/app/build/
+android/capacitor-cordova-android-plugins/build/
+android/capacitor-cordova-android-plugins/
+android/app/capacitor.build.gradle
+android/capacitor.settings.gradle
+android/app/src/main/assets/
+android/app/src/main/res/xml/config.xml
+
+# Claves y secretos: no deben subirse nunca
+*.keystore
+*.jks
+*.b64
+DEBUG_KEYSTORE_B64.txt
+.env
+.env.*
+local.properties
